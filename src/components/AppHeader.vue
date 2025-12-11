@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-
 const menuItems = [
   { label: 'Возможности', hasDropdown: true },
   { label: 'Блог', hasDropdown: false },

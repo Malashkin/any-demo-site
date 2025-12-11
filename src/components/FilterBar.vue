@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-
 const primaryFilters = [
   { label: 'Кейсы', count: 96, active: true },
   { label: 'Новости', count: 11, active: false },
