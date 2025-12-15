@@ -1,22 +1,25 @@
 <script setup lang="ts">
-const primaryFilters = [
-  { label: 'Кейсы', count: 96, active: true },
-  { label: 'Новости', count: 11, active: false },
-  { label: 'Статьи', count: 73, active: false },
-  { label: 'Видео', count: 9, active: false },
-  { label: 'Календарь мероприятий', count: 0, active: false },
-]
+const primaryFilters = []
 
-const secondaryFilters = [
-  { label: 'Индустрия' },
-  { label: 'Продукты' },
+
+const props = defineProps<{
+  activeTab: string
+}>()
+
+const emit = defineEmits<{
+  (e: 'update:active-tab', value: string): void
+}>()
+
+const tabs = [
+  { id: 'industries', label: 'Индустрия' },
+  { id: 'products', label: 'Продукты' },
 ]
 </script>
 
 <template>
   <section class="filters">
     <div class="container">
-      <div class="primary-filters">
+      <div class="primary-filters" v-if="primaryFilters.length > 0">
         <button 
           v-for="filter in primaryFilters" 
           :key="filter.label"
@@ -28,13 +31,15 @@ const secondaryFilters = [
         </button>
       </div>
       
-      <div class="secondary-filters">
+      <div class="toggle-filters">
         <button 
-          v-for="filter in secondaryFilters" 
-          :key="filter.label"
-          class="sec-filter-btn"
+          v-for="tab in tabs" 
+          :key="tab.id"
+          class="toggle-btn"
+          :class="{ active: props.activeTab === tab.id }"
+          @click="emit('update:active-tab', tab.id)"
         >
-          {{ filter.label }}
+          {{ tab.label }}
         </button>
       </div>
     </div>
@@ -91,15 +96,25 @@ const secondaryFilters = [
     color: #1A1A1A;
 }
 
-.secondary-filters {
+.toggle-filters {
   display: flex;
   gap: 32px;
 }
 
-.sec-filter-btn {
+.toggle-btn {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
-  color: #555555; /* Approximate from description */
+  color: #555555;
   font-weight: 400;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: color 0.2s;
+}
+
+.toggle-btn.active {
+  color: var(--color-active-blue);
+  font-weight: 500;
 }
 </style>

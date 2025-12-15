@@ -1,23 +1,37 @@
 <script setup lang="ts">
-const categories = [
-  'All', 'Ремонт', 'Алкоголь', 'Продукты питания', 'Ювелирные товары',
-  'Электроника и бытовая техника', 'Косметика и гигиена',
-  'Одежда и обувь', 'Детские товары, материнство',
-  'Аптеки', 'Книги и канцтовары', 'Маркетплейсы',
-  'Подарки', 'Автоиндустрия', 'Секс-шопы',
-  'Товары для животных', 'Туризм'
-]
+import { categories } from '../config/categories'
+import { computed } from 'vue'
+import { useRoute } from 'vue-router'
 
-const activeCategory = 'All'
+const route = useRoute()
+const activeCategory = computed(() => route.params.category || 'All')
+
+const props = defineProps<{
+  activeTab: string
+}>()
+
+const products = [
+  { id: 'anyquery', name: 'AI-Поиск и поиск по фото (anyQuery)' },
+  { id: 'anyrecs', name: 'AI-Рекомендации (anyRecs)' },
+  { id: 'anyreviews', name: 'AI-контент (anyReviews)' },
+]
 </script>
 
 <template>
   <section class="categories">
     <div class="container">
-      <ul class="category-list">
-        <li v-for="cat in categories" :key="cat">
-          <a href="#" class="category-link" :class="{ active: cat === activeCategory }">
-            {{ cat }}
+      <ul class="category-list" v-if="props.activeTab === 'industries'">
+        <li v-for="cat in categories" :key="cat.id">
+          <router-link :to="{ name: 'catalog', params: { category: cat.id } }" class="category-link" :class="{ active: cat.id === activeCategory }">
+            {{ cat.name }}
+          </router-link>
+        </li>
+      </ul>
+
+      <ul class="category-list" v-if="props.activeTab === 'products'">
+        <li v-for="prod in products" :key="prod.id">
+          <a href="#" class="category-link">
+            {{ prod.name }}
           </a>
         </li>
       </ul>

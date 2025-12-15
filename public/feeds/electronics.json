@@ -1,0 +1,2702 @@
+[
+  {
+    "id": "el-001",
+    "name": "LG Speaker Elite 240",
+    "image": "https://picsum.photos/seed/el-001/400/300",
+    "description": "Capture every moment with crystal-clear precision. Experience the ultimate performance with this device. Designed for professionals who demand the best. Experience the ultimate performance with this device....",
+    "rating": 4.1,
+    "price": 7580,
+    "oldPrice": 11370
+  },
+  {
+    "id": "el-002",
+    "name": "Dell Smartwatch Studio 581",
+    "image": "https://picsum.photos/seed/el-002/400/300",
+    "description": "Sleek design meets powerful functionality. Features a stunning display and all-day battery life. Designed for professionals who demand the best. Sleek design meets powerful functionality. Immersive sound quality that brings your music to life....",
+    "rating": 5,
+    "price": 17090,
+    "oldPrice": 23926
+  },
+  {
+    "id": "el-003",
+    "name": "Xiaomi Headphones Air 392",
+    "image": "https://picsum.photos/seed/el-003/400/300",
+    "description": "The perfect companion for your daily adventures. Sleek design meets powerful functionality. Boost your productivity with lightning-fast processing. Experience the ultimate performance with this device....",
+    "rating": 4.3,
+    "price": 14210,
+    "oldPrice": 19894
+  },
+  {
+    "id": "el-004",
+    "name": "Xiaomi Monitor Gaming 898",
+    "image": "https://picsum.photos/seed/el-004/400/300",
+    "description": "Designed for professionals who demand the best. Sleek design meets powerful functionality. Features a stunning display and all-day battery life. Experience the ultimate performance with this device. The perfect companion for your daily adventures....",
+    "rating": 4.7,
+    "price": 16650,
+    "oldPrice": 19980
+  },
+  {
+    "id": "el-005",
+    "name": "Apple Mouse Pro 216",
+    "image": "https://picsum.photos/seed/el-005/400/300",
+    "description": "Compact and lightweight, perfect for travel. Designed for professionals who demand the best. Boost your productivity with lightning-fast processing. Immersive sound quality that brings your music to life....",
+    "rating": 4.5,
+    "price": 990,
+    "oldPrice": 1485
+  },
+  {
+    "id": "el-006",
+    "name": "LG Smartphone Studio 338",
+    "image": "https://picsum.photos/seed/el-006/400/300",
+    "description": "Features a stunning display and all-day battery life. Compact and lightweight, perfect for travel. Features a stunning display and all-day battery life. Compact and lightweight, perfect for travel. Designed for professionals who demand the best....",
+    "rating": 4.2,
+    "price": 8390,
+    "oldPrice": 10907
+  },
+  {
+    "id": "el-007",
+    "name": "Sony Laptop Mini 727",
+    "image": "https://picsum.photos/seed/el-007/400/300",
+    "description": "Immersive sound quality that brings your music to life. The perfect companion for your daily adventures. Experience the ultimate performance with this device. Capture every moment with crystal-clear precision....",
+    "rating": 4.1,
+    "price": 18250,
+    "oldPrice": 21900
+  },
+  {
+    "id": "el-008",
+    "name": "Bose Monitor Mini 108",
+    "image": "https://picsum.photos/seed/el-008/400/300",
+    "description": "Features a stunning display and all-day battery life. Sleek design meets powerful functionality. Boost your productivity with lightning-fast processing. Sleek design meets powerful functionality. Capture every moment with crystal-clear precision....",
+    "rating": 4.1,
+    "price": 5430,
+    "oldPrice": 7601
+  },
+  {
+    "id": "el-009",
+    "name": "HP Laptop Gaming 242",
+    "image": "https://picsum.photos/seed/el-009/400/300",
+    "description": "Stay connected wherever you go. Experience the ultimate performance with this device. Boost your productivity with lightning-fast processing. Immersive sound quality that brings your music to life. Capture every moment with crystal-clear precision....",
+    "rating": 4.4,
+    "price": 12210,
+    "oldPrice": 14652
+  },
+  {
+    "id": "el-010",
+    "name": "Xiaomi Speaker Plus 634",
+    "image": "https://picsum.photos/seed/el-010/400/300",
+    "description": "Compact and lightweight, perfect for travel. Stay connected wherever you go. Capture every moment with crystal-clear precision. Compact and lightweight, perfect for travel. Experience the ultimate performance with this device....",
+    "rating": 4.6,
+    "price": 13890,
+    "oldPrice": 16668
+  },
+  {
+    "id": "el-011",
+    "name": "LG Keyboard Ultra 868",
+    "image": "https://picsum.photos/seed/el-011/400/300",
+    "description": "Boost your productivity with lightning-fast processing. Immersive sound quality that brings your music to life. Immersive sound quality that brings your music to life. Stay connected wherever you go....",
+    "rating": 4.8,
+    "price": 12120,
+    "oldPrice": 15756
+  },
+  {
+    "id": "el-012",
+    "name": "Sony Tablet Gaming 387",
+    "image": "https://picsum.photos/seed/el-012/400/300",
+    "description": "Immersive sound quality that brings your music to life. Designed for professionals who demand the best. Experience the ultimate performance with this device. The perfect companion for your daily adventures....",
+    "rating": 4.4,
+    "price": 520,
+    "oldPrice": 676
+  },
+  {
+    "id": "el-013",
+    "name": "Samsung Smartwatch Max 621",
+    "image": "https://picsum.photos/seed/el-013/400/300",
+    "description": "Features a stunning display and all-day battery life. Compact and lightweight, perfect for travel. Stay connected wherever you go. Immersive sound quality that brings your music to life. Stay connected wherever you go....",
+    "rating": 4.6,
+    "price": 8690,
+    "oldPrice": 13035
+  },
+  {
+    "id": "el-014",
+    "name": "Lenovo Keyboard Studio 711",
+    "image": "https://picsum.photos/seed/el-014/400/300",
+    "description": "Stay connected wherever you go. Sleek design meets powerful functionality. Capture every moment with crystal-clear precision. The perfect companion for your daily adventures. Designed for professionals who demand the best....",
+    "rating": 4.9,
+    "price": 12090,
+    "oldPrice": 15717
+  },
+  {
+    "id": "el-015",
+    "name": "Lenovo Monitor Gaming 166",
+    "image": "https://picsum.photos/seed/el-015/400/300",
+    "description": "Features a stunning display and all-day battery life. Capture every moment with crystal-clear precision. Features a stunning display and all-day battery life. Stay connected wherever you go. Stay connected wherever you go....",
+    "rating": 4.8,
+    "price": 9690,
+    "oldPrice": 12597
+  },
+  {
+    "id": "el-016",
+    "name": "Xiaomi Headphones Max 188",
+    "image": "https://picsum.photos/seed/el-016/400/300",
+    "description": "Compact and lightweight, perfect for travel. Experience the ultimate performance with this device. Immersive sound quality that brings your music to life. Compact and lightweight, perfect for travel....",
+    "rating": 4.2,
+    "price": 12890,
+    "oldPrice": 18046
+  },
+  {
+    "id": "el-017",
+    "name": "Samsung Camera Plus 859",
+    "image": "https://picsum.photos/seed/el-017/400/300",
+    "description": "Compact and lightweight, perfect for travel. Stay connected wherever you go. Experience the ultimate performance with this device. Features a stunning display and all-day battery life. The perfect companion for your daily adventures....",
+    "rating": 4.1,
+    "price": 8320,
+    "oldPrice": 9984
+  },
+  {
+    "id": "el-018",
+    "name": "Apple Keyboard Mini 115",
+    "image": "https://picsum.photos/seed/el-018/400/300",
+    "description": "Compact and lightweight, perfect for travel. Stay connected wherever you go. Sleek design meets powerful functionality. Features a stunning display and all-day battery life. Compact and lightweight, perfect for travel....",
+    "rating": 4.1,
+    "price": 13880,
+    "oldPrice": 19432
+  },
+  {
+    "id": "el-019",
+    "name": "HP Speaker Max 238",
+    "image": "https://picsum.photos/seed/el-019/400/300",
+    "description": "Capture every moment with crystal-clear precision. Sleek design meets powerful functionality. Sleek design meets powerful functionality. The perfect companion for your daily adventures. Compact and lightweight, perfect for travel....",
+    "rating": 4.2,
+    "price": 11520,
+    "oldPrice": 16127
+  },
+  {
+    "id": "el-020",
+    "name": "Apple Smartwatch Elite 882",
+    "image": "https://picsum.photos/seed/el-020/400/300",
+    "description": "The perfect companion for your daily adventures. Designed for professionals who demand the best. Boost your productivity with lightning-fast processing. Boost your productivity with lightning-fast processing....",
+    "rating": 4.3,
+    "price": 14780,
+    "oldPrice": 20692
+  },
+  {
+    "id": "el-021",
+    "name": "Bose Smartphone Max 541",
+    "image": "https://picsum.photos/seed/el-021/400/300",
+    "description": "Stay connected wherever you go. Designed for professionals who demand the best. Experience the ultimate performance with this device. Immersive sound quality that brings your music to life. Stay connected wherever you go....",
+    "rating": 4.4,
+    "price": 1240,
+    "oldPrice": 1736
+  },
+  {
+    "id": "el-022",
+    "name": "Dell Smartwatch Studio 568",
+    "image": "https://picsum.photos/seed/el-022/400/300",
+    "description": "Boost your productivity with lightning-fast processing. Sleek design meets powerful functionality. Stay connected wherever you go. Features a stunning display and all-day battery life. Boost your productivity with lightning-fast processing....",
+    "rating": 4.5,
+    "price": 560,
+    "oldPrice": 616
+  },
+  {
+    "id": "el-023",
+    "name": "HP Laptop Pro 616",
+    "image": "https://picsum.photos/seed/el-023/400/300",
+    "description": "Capture every moment with crystal-clear precision. Designed for professionals who demand the best. Compact and lightweight, perfect for travel. Capture every moment with crystal-clear precision. The perfect companion for your daily adventures....",
+    "rating": 5,
+    "price": 10970,
+    "oldPrice": 14261
+  },
+  {
+    "id": "el-024",
+    "name": "LG Camera Air 457",
+    "image": "https://picsum.photos/seed/el-024/400/300",
+    "description": "Capture every moment with crystal-clear precision. Designed for professionals who demand the best. Features a stunning display and all-day battery life. Experience the ultimate performance with this device....",
+    "rating": 4.5,
+    "price": 11150,
+    "oldPrice": 13380
+  },
+  {
+    "id": "el-025",
+    "name": "Sony Headphones Studio 696",
+    "image": "https://picsum.photos/seed/el-025/400/300",
+    "description": "Designed for professionals who demand the best. Designed for professionals who demand the best. Features a stunning display and all-day battery life. Boost your productivity with lightning-fast processing....",
+    "rating": 4.6,
+    "price": 12560,
+    "oldPrice": 16328
+  },
+  {
+    "id": "el-026",
+    "name": "Sony Tablet Gaming 751",
+    "image": "https://picsum.photos/seed/el-026/400/300",
+    "description": "Experience the ultimate performance with this device. Compact and lightweight, perfect for travel. Features a stunning display and all-day battery life. Immersive sound quality that brings your music to life....",
+    "rating": 5,
+    "price": 12500,
+    "oldPrice": 17500
+  },
+  {
+    "id": "el-027",
+    "name": "Bose Keyboard Elite 356",
+    "image": "https://picsum.photos/seed/el-027/400/300",
+    "description": "Features a stunning display and all-day battery life. Immersive sound quality that brings your music to life. Designed for professionals who demand the best. Features a stunning display and all-day battery life....",
+    "rating": 4.8,
+    "price": 3180,
+    "oldPrice": 3816
+  },
+  {
+    "id": "el-028",
+    "name": "Apple Monitor Mini 172",
+    "image": "https://picsum.photos/seed/el-028/400/300",
+    "description": "Experience the ultimate performance with this device. Stay connected wherever you go. Compact and lightweight, perfect for travel. Designed for professionals who demand the best. Features a stunning display and all-day battery life....",
+    "rating": 4.8,
+    "price": 2880,
+    "oldPrice": 4031
+  },
+  {
+    "id": "el-029",
+    "name": "Xiaomi Camera Lite 195",
+    "image": "https://picsum.photos/seed/el-029/400/300",
+    "description": "Boost your productivity with lightning-fast processing. Experience the ultimate performance with this device. Compact and lightweight, perfect for travel. Stay connected wherever you go. Stay connected wherever you go....",
+    "rating": 4.1,
+    "price": 4560,
+    "oldPrice": 6384
+  },
+  {
+    "id": "el-030",
+    "name": "LG Smartwatch Lite 193",
+    "image": "https://picsum.photos/seed/el-030/400/300",
+    "description": "Features a stunning display and all-day battery life. Capture every moment with crystal-clear precision. Designed for professionals who demand the best. Immersive sound quality that brings your music to life....",
+    "rating": 4.1,
+    "price": 16860,
+    "oldPrice": 18546
+  },
+  {
+    "id": "el-031",
+    "name": "Apple Keyboard Lite 874",
+    "image": "https://picsum.photos/seed/el-031/400/300",
+    "description": "Boost your productivity with lightning-fast processing. Capture every moment with crystal-clear precision. Capture every moment with crystal-clear precision. Compact and lightweight, perfect for travel....",
+    "rating": 4.4,
+    "price": 14830,
+    "oldPrice": 22245
+  },
+  {
+    "id": "el-032",
+    "name": "Dell Mouse Elite 580",
+    "image": "https://picsum.photos/seed/el-032/400/300",
+    "description": "Compact and lightweight, perfect for travel. Stay connected wherever you go. Capture every moment with crystal-clear precision. Designed for professionals who demand the best. Sleek design meets powerful functionality....",
+    "rating": 4.6,
+    "price": 9340,
+    "oldPrice": 12142
+  },
+  {
+    "id": "el-033",
+    "name": "Asus Smartphone Plus 314",
+    "image": "https://picsum.photos/seed/el-033/400/300",
+    "description": "Boost your productivity with lightning-fast processing. Immersive sound quality that brings your music to life. Experience the ultimate performance with this device. Experience the ultimate performance with this device....",
+    "rating": 4,
+    "price": 10480,
+    "oldPrice": 12576
+  },
+  {
+    "id": "el-034",
+    "name": "Sony Mouse Lite 343",
+    "image": "https://picsum.photos/seed/el-034/400/300",
+    "description": "Features a stunning display and all-day battery life. Capture every moment with crystal-clear precision. Capture every moment with crystal-clear precision. Sleek design meets powerful functionality. Designed for professionals who demand the best....",
+    "rating": 4,
+    "price": 14620,
+    "oldPrice": 17544
+  },
+  {
+    "id": "el-035",
+    "name": "HP Mouse Ultra 804",
+    "image": "https://picsum.photos/seed/el-035/400/300",
+    "description": "Boost your productivity with lightning-fast processing. Designed for professionals who demand the best. Experience the ultimate performance with this device. Experience the ultimate performance with this device....",
+    "rating": 4.2,
+    "price": 3980,
+    "oldPrice": 4776
+  },
+  {
+    "id": "el-036",
+    "name": "Bose Monitor Gaming 497",
+    "image": "https://picsum.photos/seed/el-036/400/300",
+    "description": "Designed for professionals who demand the best. Experience the ultimate performance with this device. Compact and lightweight, perfect for travel. The perfect companion for your daily adventures. Designed for professionals who demand the best....",
+    "rating": 4.1,
+    "price": 11210,
+    "oldPrice": 14573
+  },
+  {
+    "id": "el-037",
+    "name": "LG Headphones Air 578",
+    "image": "https://picsum.photos/seed/el-037/400/300",
+    "description": "Capture every moment with crystal-clear precision. Compact and lightweight, perfect for travel. Immersive sound quality that brings your music to life. Features a stunning display and all-day battery life....",
+    "rating": 4.3,
+    "price": 11290,
+    "oldPrice": 16935
+  },
+  {
+    "id": "el-038",
+    "name": "HP Mouse Ultra 263",
+    "image": "https://picsum.photos/seed/el-038/400/300",
+    "description": "The perfect companion for your daily adventures. Sleek design meets powerful functionality. Stay connected wherever you go. Experience the ultimate performance with this device. Boost your productivity with lightning-fast processing....",
+    "rating": 4.6,
+    "price": 11140,
+    "oldPrice": 16710
+  },
+  {
+    "id": "el-039",
+    "name": "HP Monitor Air 721",
+    "image": "https://picsum.photos/seed/el-039/400/300",
+    "description": "The perfect companion for your daily adventures. Immersive sound quality that brings your music to life. Boost your productivity with lightning-fast processing. Immersive sound quality that brings your music to life....",
+    "rating": 4.1,
+    "price": 11880,
+    "oldPrice": 14256
+  },
+  {
+    "id": "el-040",
+    "name": "LG Smartphone Plus 575",
+    "image": "https://picsum.photos/seed/el-040/400/300",
+    "description": "Immersive sound quality that brings your music to life. Experience the ultimate performance with this device. Boost your productivity with lightning-fast processing. Designed for professionals who demand the best....",
+    "rating": 4.8,
+    "price": 16790,
+    "oldPrice": 21827
+  },
+  {
+    "id": "el-041",
+    "name": "Xiaomi Laptop Ultra 385",
+    "image": "https://picsum.photos/seed/el-041/400/300",
+    "description": "Sleek design meets powerful functionality. Experience the ultimate performance with this device. Experience the ultimate performance with this device. Experience the ultimate performance with this device....",
+    "rating": 4.5,
+    "price": 15880,
+    "oldPrice": 23820
+  },
+  {
+    "id": "el-042",
+    "name": "Asus Smartwatch Studio 493",
+    "image": "https://picsum.photos/seed/el-042/400/300",
+    "description": "Features a stunning display and all-day battery life. Immersive sound quality that brings your music to life. Sleek design meets powerful functionality. Features a stunning display and all-day battery life....",
+    "rating": 4.7,
+    "price": 2000,
+    "oldPrice": 2600
+  },
+  {
+    "id": "el-043",
+    "name": "Lenovo Laptop Gaming 566",
+    "image": "https://picsum.photos/seed/el-043/400/300",
+    "description": "Immersive sound quality that brings your music to life. Features a stunning display and all-day battery life. Sleek design meets powerful functionality. Stay connected wherever you go. Features a stunning display and all-day battery life....",
+    "rating": 4.6,
+    "price": 10810,
+    "oldPrice": 12972
+  },
+  {
+    "id": "el-044",
+    "name": "Sony Speaker Lite 253",
+    "image": "https://picsum.photos/seed/el-044/400/300",
+    "description": "Stay connected wherever you go. Experience the ultimate performance with this device. Sleek design meets powerful functionality. Boost your productivity with lightning-fast processing. Features a stunning display and all-day battery life....",
+    "rating": 4.7,
+    "price": 7080,
+    "oldPrice": 8496
+  },
+  {
+    "id": "el-045",
+    "name": "Samsung Smartphone Lite 719",
+    "image": "https://picsum.photos/seed/el-045/400/300",
+    "description": "Immersive sound quality that brings your music to life. Immersive sound quality that brings your music to life. Experience the ultimate performance with this device. Designed for professionals who demand the best....",
+    "rating": 4.6,
+    "price": 670,
+    "oldPrice": 737
+  },
+  {
+    "id": "el-046",
+    "name": "Dell Monitor Studio 335",
+    "image": "https://picsum.photos/seed/el-046/400/300",
+    "description": "Designed for professionals who demand the best. Capture every moment with crystal-clear precision. Features a stunning display and all-day battery life. Capture every moment with crystal-clear precision....",
+    "rating": 4.5,
+    "price": 7520,
+    "oldPrice": 11280
+  },
+  {
+    "id": "el-047",
+    "name": "Xiaomi Keyboard Max 641",
+    "image": "https://picsum.photos/seed/el-047/400/300",
+    "description": "Stay connected wherever you go. Capture every moment with crystal-clear precision. Sleek design meets powerful functionality. Features a stunning display and all-day battery life. Capture every moment with crystal-clear precision....",
+    "rating": 4.7,
+    "price": 15610,
+    "oldPrice": 21854
+  },
+  {
+    "id": "el-048",
+    "name": "HP Camera Studio 761",
+    "image": "https://picsum.photos/seed/el-048/400/300",
+    "description": "The perfect companion for your daily adventures. Immersive sound quality that brings your music to life. The perfect companion for your daily adventures. Stay connected wherever you go. Compact and lightweight, perfect for travel....",
+    "rating": 4.4,
+    "price": 13520,
+    "oldPrice": 17576
+  },
+  {
+    "id": "el-049",
+    "name": "HP Camera Studio 759",
+    "image": "https://picsum.photos/seed/el-049/400/300",
+    "description": "Sleek design meets powerful functionality. Sleek design meets powerful functionality. Capture every moment with crystal-clear precision. Stay connected wherever you go. Boost your productivity with lightning-fast processing....",
+    "rating": 4.2,
+    "price": 14970,
+    "oldPrice": 17964
+  },
+  {
+    "id": "el-050",
+    "name": "Samsung Laptop Studio 494",
+    "image": "https://picsum.photos/seed/el-050/400/300",
+    "description": "Capture every moment with crystal-clear precision. Immersive sound quality that brings your music to life. Stay connected wherever you go. Features a stunning display and all-day battery life. Designed for professionals who demand the best....",
+    "rating": 4.7,
+    "price": 8150,
+    "oldPrice": 9780
+  },
+  {
+    "id": "el-051",
+    "name": "HP Mouse Gaming 334",
+    "image": "https://picsum.photos/seed/el-051/400/300",
+    "description": "The perfect companion for your daily adventures. Features a stunning display and all-day battery life. Designed for professionals who demand the best. Stay connected wherever you go. Immersive sound quality that brings your music to life....",
+    "rating": 4.8,
+    "price": 11890,
+    "oldPrice": 16646
+  },
+  {
+    "id": "el-052",
+    "name": "LG Keyboard Pro 121",
+    "image": "https://picsum.photos/seed/el-052/400/300",
+    "description": "Experience the ultimate performance with this device. Experience the ultimate performance with this device. Compact and lightweight, perfect for travel. The perfect companion for your daily adventures....",
+    "rating": 4.4,
+    "price": 11280,
+    "oldPrice": 13536
+  },
+  {
+    "id": "el-053",
+    "name": "LG Monitor Plus 842",
+    "image": "https://picsum.photos/seed/el-053/400/300",
+    "description": "Compact and lightweight, perfect for travel. The perfect companion for your daily adventures. Compact and lightweight, perfect for travel. The perfect companion for your daily adventures. Stay connected wherever you go....",
+    "rating": 4.9,
+    "price": 1270,
+    "oldPrice": 1905
+  },
+  {
+    "id": "el-054",
+    "name": "Apple Smartwatch Max 889",
+    "image": "https://picsum.photos/seed/el-054/400/300",
+    "description": "Designed for professionals who demand the best. Sleek design meets powerful functionality. The perfect companion for your daily adventures. Immersive sound quality that brings your music to life. Boost your productivity with lightning-fast processing...",
+    "rating": 4.9,
+    "price": 11140,
+    "oldPrice": 14482
+  },
+  {
+    "id": "el-055",
+    "name": "Dell Laptop Max 680",
+    "image": "https://picsum.photos/seed/el-055/400/300",
+    "description": "Boost your productivity with lightning-fast processing. Experience the ultimate performance with this device. Boost your productivity with lightning-fast processing. Features a stunning display and all-day battery life....",
+    "rating": 4.2,
+    "price": 800,
+    "oldPrice": 1040
+  },
+  {
+    "id": "el-056",
+    "name": "Dell Headphones Max 205",
+    "image": "https://picsum.photos/seed/el-056/400/300",
+    "description": "Capture every moment with crystal-clear precision. Capture every moment with crystal-clear precision. Features a stunning display and all-day battery life. Sleek design meets powerful functionality. Experience the ultimate performance with this devic...",
+    "rating": 5,
+    "price": 3450,
+    "oldPrice": 4485
+  },
+  {
+    "id": "el-057",
+    "name": "Dell Smartphone Elite 438",
+    "image": "https://picsum.photos/seed/el-057/400/300",
+    "description": "Experience the ultimate performance with this device. Capture every moment with crystal-clear precision. Sleek design meets powerful functionality. Boost your productivity with lightning-fast processing....",
+    "rating": 5,
+    "price": 8780,
+    "oldPrice": 11414
+  },
+  {
+    "id": "el-058",
+    "name": "HP Smartphone Pro 167",
+    "image": "https://picsum.photos/seed/el-058/400/300",
+    "description": "Immersive sound quality that brings your music to life. Immersive sound quality that brings your music to life. The perfect companion for your daily adventures. Designed for professionals who demand the best....",
+    "rating": 4.3,
+    "price": 16640,
+    "oldPrice": 23296
+  },
+  {
+    "id": "el-059",
+    "name": "Sony Tablet Plus 645",
+    "image": "https://picsum.photos/seed/el-059/400/300",
+    "description": "The perfect companion for your daily adventures. Sleek design meets powerful functionality. Capture every moment with crystal-clear precision. Experience the ultimate performance with this device. Compact and lightweight, perfect for travel....",
+    "rating": 4.6,
+    "price": 17800,
+    "oldPrice": 23140
+  },
+  {
+    "id": "el-060",
+    "name": "Asus Tablet Air 751",
+    "image": "https://picsum.photos/seed/el-060/400/300",
+    "description": "Designed for professionals who demand the best. Immersive sound quality that brings your music to life. Capture every moment with crystal-clear precision. Stay connected wherever you go. Capture every moment with crystal-clear precision....",
+    "rating": 4.5,
+    "price": 12480,
+    "oldPrice": 13728
+  },
+  {
+    "id": "el-061",
+    "name": "Sony Smartwatch Elite 240",
+    "image": "https://picsum.photos/seed/el-061/400/300",
+    "description": "Compact and lightweight, perfect for travel. Compact and lightweight, perfect for travel. Immersive sound quality that brings your music to life. Immersive sound quality that brings your music to life....",
+    "rating": 4.3,
+    "price": 1680,
+    "oldPrice": 2016
+  },
+  {
+    "id": "el-062",
+    "name": "Lenovo Smartwatch Studio 595",
+    "image": "https://picsum.photos/seed/el-062/400/300",
+    "description": "Experience the ultimate performance with this device. Capture every moment with crystal-clear precision. Capture every moment with crystal-clear precision. Boost your productivity with lightning-fast processing....",
+    "rating": 4.3,
+    "price": 10070,
+    "oldPrice": 13091
+  },
+  {
+    "id": "el-063",
+    "name": "Apple Speaker Elite 789",
+    "image": "https://picsum.photos/seed/el-063/400/300",
+    "description": "Compact and lightweight, perfect for travel. Designed for professionals who demand the best. Compact and lightweight, perfect for travel. The perfect companion for your daily adventures. Sleek design meets powerful functionality....",
+    "rating": 4.3,
+    "price": 19500,
+    "oldPrice": 29250
+  },
+  {
+    "id": "el-064",
+    "name": "Lenovo Mouse Mini 118",
+    "image": "https://picsum.photos/seed/el-064/400/300",
+    "description": "The perfect companion for your daily adventures. Features a stunning display and all-day battery life. Sleek design meets powerful functionality. Experience the ultimate performance with this device....",
+    "rating": 4.1,
+    "price": 15120,
+    "oldPrice": 19656
+  },
+  {
+    "id": "el-065",
+    "name": "Asus Mouse Elite 539",
+    "image": "https://picsum.photos/seed/el-065/400/300",
+    "description": "Designed for professionals who demand the best. Features a stunning display and all-day battery life. Features a stunning display and all-day battery life. Capture every moment with crystal-clear precision....",
+    "rating": 4.2,
+    "price": 14290,
+    "oldPrice": 21435
+  },
+  {
+    "id": "el-066",
+    "name": "LG Smartwatch Studio 723",
+    "image": "https://picsum.photos/seed/el-066/400/300",
+    "description": "Stay connected wherever you go. Capture every moment with crystal-clear precision. Capture every moment with crystal-clear precision. The perfect companion for your daily adventures. Capture every moment with crystal-clear precision....",
+    "rating": 4.5,
+    "price": 7290,
+    "oldPrice": 9477
+  },
+  {
+    "id": "el-067",
+    "name": "LG Camera Lite 664",
+    "image": "https://picsum.photos/seed/el-067/400/300",
+    "description": "Features a stunning display and all-day battery life. Capture every moment with crystal-clear precision. Compact and lightweight, perfect for travel. Boost your productivity with lightning-fast processing....",
+    "rating": 4.4,
+    "price": 8270,
+    "oldPrice": 10751
+  },
+  {
+    "id": "el-068",
+    "name": "Sony Keyboard Lite 343",
+    "image": "https://picsum.photos/seed/el-068/400/300",
+    "description": "The perfect companion for your daily adventures. Features a stunning display and all-day battery life. Experience the ultimate performance with this device. Compact and lightweight, perfect for travel....",
+    "rating": 4.1,
+    "price": 10080,
+    "oldPrice": 11088
+  },
+  {
+    "id": "el-069",
+    "name": "Apple Monitor Studio 178",
+    "image": "https://picsum.photos/seed/el-069/400/300",
+    "description": "Boost your productivity with lightning-fast processing. Capture every moment with crystal-clear precision. Capture every moment with crystal-clear precision. Stay connected wherever you go. Stay connected wherever you go....",
+    "rating": 4.3,
+    "price": 11910,
+    "oldPrice": 16674
+  },
+  {
+    "id": "el-070",
+    "name": "Asus Smartwatch Pro 895",
+    "image": "https://picsum.photos/seed/el-070/400/300",
+    "description": "Experience the ultimate performance with this device. Compact and lightweight, perfect for travel. Compact and lightweight, perfect for travel. Stay connected wherever you go. Sleek design meets powerful functionality....",
+    "rating": 5,
+    "price": 12080,
+    "oldPrice": 15704
+  },
+  {
+    "id": "el-071",
+    "name": "Sony Laptop Plus 184",
+    "image": "https://picsum.photos/seed/el-071/400/300",
+    "description": "Compact and lightweight, perfect for travel. The perfect companion for your daily adventures. Capture every moment with crystal-clear precision. Designed for professionals who demand the best. Experience the ultimate performance with this device....",
+    "rating": 4.8,
+    "price": 18400,
+    "oldPrice": 23920
+  },
+  {
+    "id": "el-072",
+    "name": "Bose Monitor Studio 391",
+    "image": "https://picsum.photos/seed/el-072/400/300",
+    "description": "Compact and lightweight, perfect for travel. Compact and lightweight, perfect for travel. Experience the ultimate performance with this device. Designed for professionals who demand the best. The perfect companion for your daily adventures....",
+    "rating": 4.8,
+    "price": 15230,
+    "oldPrice": 19799
+  },
+  {
+    "id": "el-073",
+    "name": "Xiaomi Headphones Mini 524",
+    "image": "https://picsum.photos/seed/el-073/400/300",
+    "description": "Features a stunning display and all-day battery life. Designed for professionals who demand the best. Compact and lightweight, perfect for travel. Compact and lightweight, perfect for travel. Immersive sound quality that brings your music to life....",
+    "rating": 4,
+    "price": 18530,
+    "oldPrice": 22236
+  },
+  {
+    "id": "el-074",
+    "name": "Lenovo Headphones Max 241",
+    "image": "https://picsum.photos/seed/el-074/400/300",
+    "description": "Boost your productivity with lightning-fast processing. Capture every moment with crystal-clear precision. The perfect companion for your daily adventures. Designed for professionals who demand the best....",
+    "rating": 4.7,
+    "price": 12410,
+    "oldPrice": 18615
+  },
+  {
+    "id": "el-075",
+    "name": "HP Smartphone Lite 835",
+    "image": "https://picsum.photos/seed/el-075/400/300",
+    "description": "Features a stunning display and all-day battery life. Features a stunning display and all-day battery life. Capture every moment with crystal-clear precision. Stay connected wherever you go. Stay connected wherever you go....",
+    "rating": 4.4,
+    "price": 10540,
+    "oldPrice": 12648
+  },
+  {
+    "id": "el-076",
+    "name": "LG Smartphone Gaming 332",
+    "image": "https://picsum.photos/seed/el-076/400/300",
+    "description": "Features a stunning display and all-day battery life. Stay connected wherever you go. Boost your productivity with lightning-fast processing. Compact and lightweight, perfect for travel. The perfect companion for your daily adventures....",
+    "rating": 4.3,
+    "price": 15670,
+    "oldPrice": 18804
+  },
+  {
+    "id": "el-077",
+    "name": "Dell Speaker Pro 399",
+    "image": "https://picsum.photos/seed/el-077/400/300",
+    "description": "Stay connected wherever you go. Immersive sound quality that brings your music to life. Experience the ultimate performance with this device. Immersive sound quality that brings your music to life. Designed for professionals who demand the best....",
+    "rating": 4.8,
+    "price": 710,
+    "oldPrice": 852
+  },
+  {
+    "id": "el-078",
+    "name": "Samsung Laptop Pro 388",
+    "image": "https://picsum.photos/seed/el-078/400/300",
+    "description": "Immersive sound quality that brings your music to life. Features a stunning display and all-day battery life. Immersive sound quality that brings your music to life. Capture every moment with crystal-clear precision....",
+    "rating": 4.1,
+    "price": 2590,
+    "oldPrice": 2849
+  },
+  {
+    "id": "el-079",
+    "name": "Bose Keyboard Mini 295",
+    "image": "https://picsum.photos/seed/el-079/400/300",
+    "description": "Sleek design meets powerful functionality. Immersive sound quality that brings your music to life. Compact and lightweight, perfect for travel. Stay connected wherever you go. Sleek design meets powerful functionality....",
+    "rating": 5,
+    "price": 15310,
+    "oldPrice": 16841
+  },
+  {
+    "id": "el-080",
+    "name": "Dell Tablet Studio 628",
+    "image": "https://picsum.photos/seed/el-080/400/300",
+    "description": "Capture every moment with crystal-clear precision. Compact and lightweight, perfect for travel. Experience the ultimate performance with this device. Experience the ultimate performance with this device....",
+    "rating": 4.5,
+    "price": 18570,
+    "oldPrice": 27855
+  },
+  {
+    "id": "el-081",
+    "name": "Samsung Laptop Lite 356",
+    "image": "https://picsum.photos/seed/el-081/400/300",
+    "description": "Boost your productivity with lightning-fast processing. Experience the ultimate performance with this device. Designed for professionals who demand the best. Sleek design meets powerful functionality....",
+    "rating": 4,
+    "price": 11650,
+    "oldPrice": 16309
+  },
+  {
+    "id": "el-082",
+    "name": "Samsung Camera Gaming 250",
+    "image": "https://picsum.photos/seed/el-082/400/300",
+    "description": "Designed for professionals who demand the best. Designed for professionals who demand the best. The perfect companion for your daily adventures. Features a stunning display and all-day battery life. Sleek design meets powerful functionality....",
+    "rating": 4.6,
+    "price": 5320,
+    "oldPrice": 6384
+  },
+  {
+    "id": "el-083",
+    "name": "Bose Smartwatch Elite 688",
+    "image": "https://picsum.photos/seed/el-083/400/300",
+    "description": "Immersive sound quality that brings your music to life. Immersive sound quality that brings your music to life. The perfect companion for your daily adventures. Compact and lightweight, perfect for travel....",
+    "rating": 4.4,
+    "price": 2840,
+    "oldPrice": 3408
+  },
+  {
+    "id": "el-084",
+    "name": "Xiaomi Tablet Elite 557",
+    "image": "https://picsum.photos/seed/el-084/400/300",
+    "description": "Sleek design meets powerful functionality. Stay connected wherever you go. Stay connected wherever you go. Immersive sound quality that brings your music to life. Compact and lightweight, perfect for travel....",
+    "rating": 4.9,
+    "price": 1810,
+    "oldPrice": 2534
+  },
+  {
+    "id": "el-085",
+    "name": "Sony Speaker Mini 771",
+    "image": "https://picsum.photos/seed/el-085/400/300",
+    "description": "Stay connected wherever you go. Stay connected wherever you go. Boost your productivity with lightning-fast processing. Compact and lightweight, perfect for travel. Experience the ultimate performance with this device....",
+    "rating": 4.7,
+    "price": 18780,
+    "oldPrice": 28170
+  },
+  {
+    "id": "el-086",
+    "name": "Samsung Smartphone Gaming 140",
+    "image": "https://picsum.photos/seed/el-086/400/300",
+    "description": "Boost your productivity with lightning-fast processing. Designed for professionals who demand the best. Features a stunning display and all-day battery life. Sleek design meets powerful functionality....",
+    "rating": 4.5,
+    "price": 10100,
+    "oldPrice": 14140
+  },
+  {
+    "id": "el-087",
+    "name": "LG Tablet Air 282",
+    "image": "https://picsum.photos/seed/el-087/400/300",
+    "description": "Experience the ultimate performance with this device. Features a stunning display and all-day battery life. Experience the ultimate performance with this device. Stay connected wherever you go. Immersive sound quality that brings your music to life....",
+    "rating": 4.1,
+    "price": 19740,
+    "oldPrice": 27636
+  },
+  {
+    "id": "el-088",
+    "name": "Apple Speaker Lite 790",
+    "image": "https://picsum.photos/seed/el-088/400/300",
+    "description": "The perfect companion for your daily adventures. Features a stunning display and all-day battery life. Boost your productivity with lightning-fast processing. Immersive sound quality that brings your music to life....",
+    "rating": 4,
+    "price": 12770,
+    "oldPrice": 17878
+  },
+  {
+    "id": "el-089",
+    "name": "Asus Speaker Ultra 324",
+    "image": "https://picsum.photos/seed/el-089/400/300",
+    "description": "Compact and lightweight, perfect for travel. Stay connected wherever you go. Sleek design meets powerful functionality. Sleek design meets powerful functionality. Sleek design meets powerful functionality....",
+    "rating": 4.1,
+    "price": 9340,
+    "oldPrice": 10274
+  },
+  {
+    "id": "el-090",
+    "name": "HP Mouse Lite 833",
+    "image": "https://picsum.photos/seed/el-090/400/300",
+    "description": "Experience the ultimate performance with this device. Features a stunning display and all-day battery life. The perfect companion for your daily adventures. Immersive sound quality that brings your music to life....",
+    "rating": 4.3,
+    "price": 1590,
+    "oldPrice": 1908
+  },
+  {
+    "id": "el-091",
+    "name": "Asus Laptop Pro 383",
+    "image": "https://picsum.photos/seed/el-091/400/300",
+    "description": "Stay connected wherever you go. Compact and lightweight, perfect for travel. Capture every moment with crystal-clear precision. Features a stunning display and all-day battery life. Capture every moment with crystal-clear precision....",
+    "rating": 4.4,
+    "price": 930,
+    "oldPrice": 1023
+  },
+  {
+    "id": "el-092",
+    "name": "LG Headphones Max 283",
+    "image": "https://picsum.photos/seed/el-092/400/300",
+    "description": "Sleek design meets powerful functionality. Stay connected wherever you go. The perfect companion for your daily adventures. Stay connected wherever you go. Capture every moment with crystal-clear precision....",
+    "rating": 4.8,
+    "price": 1050,
+    "oldPrice": 1470
+  },
+  {
+    "id": "el-093",
+    "name": "Apple Monitor Mini 526",
+    "image": "https://picsum.photos/seed/el-093/400/300",
+    "description": "Experience the ultimate performance with this device. The perfect companion for your daily adventures. Capture every moment with crystal-clear precision. The perfect companion for your daily adventures....",
+    "rating": 4.8,
+    "price": 3320,
+    "oldPrice": 3984
+  },
+  {
+    "id": "el-094",
+    "name": "Lenovo Keyboard Max 793",
+    "image": "https://picsum.photos/seed/el-094/400/300",
+    "description": "Stay connected wherever you go. Immersive sound quality that brings your music to life. The perfect companion for your daily adventures. The perfect companion for your daily adventures. The perfect companion for your daily adventures....",
+    "rating": 4.5,
+    "price": 19730,
+    "oldPrice": 23676
+  },
+  {
+    "id": "el-095",
+    "name": "Lenovo Smartphone Lite 804",
+    "image": "https://picsum.photos/seed/el-095/400/300",
+    "description": "Compact and lightweight, perfect for travel. Compact and lightweight, perfect for travel. Boost your productivity with lightning-fast processing. Features a stunning display and all-day battery life....",
+    "rating": 4.4,
+    "price": 12080,
+    "oldPrice": 13288
+  },
+  {
+    "id": "el-096",
+    "name": "Bose Tablet Pro 526",
+    "image": "https://picsum.photos/seed/el-096/400/300",
+    "description": "Stay connected wherever you go. Features a stunning display and all-day battery life. Sleek design meets powerful functionality. Boost your productivity with lightning-fast processing. Boost your productivity with lightning-fast processing....",
+    "rating": 4.8,
+    "price": 2260,
+    "oldPrice": 3390
+  },
+  {
+    "id": "el-097",
+    "name": "Dell Speaker Plus 223",
+    "image": "https://picsum.photos/seed/el-097/400/300",
+    "description": "Capture every moment with crystal-clear precision. Designed for professionals who demand the best. Experience the ultimate performance with this device. Capture every moment with crystal-clear precision....",
+    "rating": 4.5,
+    "price": 8360,
+    "oldPrice": 9196
+  },
+  {
+    "id": "el-098",
+    "name": "Dell Smartphone Plus 803",
+    "image": "https://picsum.photos/seed/el-098/400/300",
+    "description": "Designed for professionals who demand the best. Stay connected wherever you go. Immersive sound quality that brings your music to life. Immersive sound quality that brings your music to life. Immersive sound quality that brings your music to life....",
+    "rating": 5,
+    "price": 16180,
+    "oldPrice": 21034
+  },
+  {
+    "id": "el-099",
+    "name": "Sony Monitor Studio 832",
+    "image": "https://picsum.photos/seed/el-099/400/300",
+    "description": "Features a stunning display and all-day battery life. Capture every moment with crystal-clear precision. Compact and lightweight, perfect for travel. Capture every moment with crystal-clear precision....",
+    "rating": 4.2,
+    "price": 3550,
+    "oldPrice": 4615
+  },
+  {
+    "id": "el-100",
+    "name": "Bose Monitor Ultra 859",
+    "image": "https://picsum.photos/seed/el-100/400/300",
+    "description": "Experience the ultimate performance with this device. Immersive sound quality that brings your music to life. Features a stunning display and all-day battery life. Immersive sound quality that brings your music to life....",
+    "rating": 4.5,
+    "price": 4580,
+    "oldPrice": 6412
+  },
+  {
+    "id": "el-101",
+    "name": "Dell Monitor Pro 516",
+    "image": "https://picsum.photos/seed/el-101/400/300",
+    "description": "Designed for professionals who demand the best. The perfect companion for your daily adventures. Capture every moment with crystal-clear precision. Experience the ultimate performance with this device....",
+    "rating": 4.7,
+    "price": 10140,
+    "oldPrice": 13182
+  },
+  {
+    "id": "el-102",
+    "name": "Bose Headphones Elite 731",
+    "image": "https://picsum.photos/seed/el-102/400/300",
+    "description": "Immersive sound quality that brings your music to life. Designed for professionals who demand the best. Stay connected wherever you go. Boost your productivity with lightning-fast processing. Designed for professionals who demand the best....",
+    "rating": 4.6,
+    "price": 13500,
+    "oldPrice": 17550
+  },
+  {
+    "id": "el-103",
+    "name": "Samsung Tablet Max 838",
+    "image": "https://picsum.photos/seed/el-103/400/300",
+    "description": "Experience the ultimate performance with this device. Features a stunning display and all-day battery life. Experience the ultimate performance with this device. The perfect companion for your daily adventures....",
+    "rating": 4.8,
+    "price": 7570,
+    "oldPrice": 8327
+  },
+  {
+    "id": "el-104",
+    "name": "Dell Speaker Ultra 689",
+    "image": "https://picsum.photos/seed/el-104/400/300",
+    "description": "Experience the ultimate performance with this device. Features a stunning display and all-day battery life. The perfect companion for your daily adventures. Boost your productivity with lightning-fast processing....",
+    "rating": 4.3,
+    "price": 14780,
+    "oldPrice": 19214
+  },
+  {
+    "id": "el-105",
+    "name": "Xiaomi Headphones Studio 525",
+    "image": "https://picsum.photos/seed/el-105/400/300",
+    "description": "Designed for professionals who demand the best. Immersive sound quality that brings your music to life. Features a stunning display and all-day battery life. Immersive sound quality that brings your music to life....",
+    "rating": 4.5,
+    "price": 16340,
+    "oldPrice": 19608
+  },
+  {
+    "id": "el-106",
+    "name": "Dell Smartwatch Elite 351",
+    "image": "https://picsum.photos/seed/el-106/400/300",
+    "description": "Experience the ultimate performance with this device. Compact and lightweight, perfect for travel. Capture every moment with crystal-clear precision. Capture every moment with crystal-clear precision....",
+    "rating": 4.8,
+    "price": 13990,
+    "oldPrice": 15389
+  },
+  {
+    "id": "el-107",
+    "name": "Apple Smartphone Elite 479",
+    "image": "https://picsum.photos/seed/el-107/400/300",
+    "description": "Capture every moment with crystal-clear precision. Experience the ultimate performance with this device. Stay connected wherever you go. Boost your productivity with lightning-fast processing. Capture every moment with crystal-clear precision....",
+    "rating": 4.3,
+    "price": 16500,
+    "oldPrice": 23100
+  },
+  {
+    "id": "el-108",
+    "name": "Xiaomi Laptop Elite 373",
+    "image": "https://picsum.photos/seed/el-108/400/300",
+    "description": "Stay connected wherever you go. The perfect companion for your daily adventures. Features a stunning display and all-day battery life. Features a stunning display and all-day battery life. Sleek design meets powerful functionality....",
+    "rating": 4.3,
+    "price": 10700,
+    "oldPrice": 12840
+  },
+  {
+    "id": "el-109",
+    "name": "Xiaomi Laptop Pro 133",
+    "image": "https://picsum.photos/seed/el-109/400/300",
+    "description": "Features a stunning display and all-day battery life. Features a stunning display and all-day battery life. Features a stunning display and all-day battery life. The perfect companion for your daily adventures....",
+    "rating": 4.4,
+    "price": 4030,
+    "oldPrice": 5642
+  },
+  {
+    "id": "el-110",
+    "name": "Lenovo Laptop Pro 223",
+    "image": "https://picsum.photos/seed/el-110/400/300",
+    "description": "Features a stunning display and all-day battery life. Stay connected wherever you go. Stay connected wherever you go. Sleek design meets powerful functionality. Designed for professionals who demand the best....",
+    "rating": 4.3,
+    "price": 5770,
+    "oldPrice": 8077
+  },
+  {
+    "id": "el-111",
+    "name": "HP Smartwatch Air 724",
+    "image": "https://picsum.photos/seed/el-111/400/300",
+    "description": "Designed for professionals who demand the best. The perfect companion for your daily adventures. Experience the ultimate performance with this device. Features a stunning display and all-day battery life....",
+    "rating": 4.5,
+    "price": 17740,
+    "oldPrice": 26610
+  },
+  {
+    "id": "el-112",
+    "name": "Bose Keyboard Mini 516",
+    "image": "https://picsum.photos/seed/el-112/400/300",
+    "description": "Stay connected wherever you go. The perfect companion for your daily adventures. Boost your productivity with lightning-fast processing. The perfect companion for your daily adventures. Sleek design meets powerful functionality....",
+    "rating": 4.1,
+    "price": 1390,
+    "oldPrice": 1529
+  },
+  {
+    "id": "el-113",
+    "name": "Lenovo Laptop Lite 886",
+    "image": "https://picsum.photos/seed/el-113/400/300",
+    "description": "Sleek design meets powerful functionality. Features a stunning display and all-day battery life. Sleek design meets powerful functionality. Capture every moment with crystal-clear precision. The perfect companion for your daily adventures....",
+    "rating": 4.5,
+    "price": 9830,
+    "oldPrice": 12779
+  },
+  {
+    "id": "el-114",
+    "name": "Lenovo Monitor Elite 822",
+    "image": "https://picsum.photos/seed/el-114/400/300",
+    "description": "Designed for professionals who demand the best. Sleek design meets powerful functionality. Immersive sound quality that brings your music to life. Sleek design meets powerful functionality. Capture every moment with crystal-clear precision....",
+    "rating": 4.4,
+    "price": 1520,
+    "oldPrice": 1824
+  },
+  {
+    "id": "el-115",
+    "name": "Asus Keyboard Studio 380",
+    "image": "https://picsum.photos/seed/el-115/400/300",
+    "description": "Immersive sound quality that brings your music to life. Stay connected wherever you go. Features a stunning display and all-day battery life. Features a stunning display and all-day battery life. Experience the ultimate performance with this device....",
+    "rating": 4.6,
+    "price": 11940,
+    "oldPrice": 17910
+  },
+  {
+    "id": "el-116",
+    "name": "HP Camera Plus 346",
+    "image": "https://picsum.photos/seed/el-116/400/300",
+    "description": "Designed for professionals who demand the best. Stay connected wherever you go. Designed for professionals who demand the best. Features a stunning display and all-day battery life. The perfect companion for your daily adventures....",
+    "rating": 4.7,
+    "price": 8820,
+    "oldPrice": 11466
+  },
+  {
+    "id": "el-117",
+    "name": "LG Tablet Ultra 604",
+    "image": "https://picsum.photos/seed/el-117/400/300",
+    "description": "Capture every moment with crystal-clear precision. Compact and lightweight, perfect for travel. Features a stunning display and all-day battery life. The perfect companion for your daily adventures. Boost your productivity with lightning-fast process...",
+    "rating": 4.2,
+    "price": 2630,
+    "oldPrice": 3156
+  },
+  {
+    "id": "el-118",
+    "name": "Samsung Smartwatch Gaming 123",
+    "image": "https://picsum.photos/seed/el-118/400/300",
+    "description": "Features a stunning display and all-day battery life. Sleek design meets powerful functionality. Capture every moment with crystal-clear precision. The perfect companion for your daily adventures. Capture every moment with crystal-clear precision....",
+    "rating": 4.1,
+    "price": 14650,
+    "oldPrice": 17580
+  },
+  {
+    "id": "el-119",
+    "name": "Lenovo Smartphone Air 624",
+    "image": "https://picsum.photos/seed/el-119/400/300",
+    "description": "Experience the ultimate performance with this device. Capture every moment with crystal-clear precision. Compact and lightweight, perfect for travel. Stay connected wherever you go. Immersive sound quality that brings your music to life....",
+    "rating": 4,
+    "price": 2010,
+    "oldPrice": 2613
+  },
+  {
+    "id": "el-120",
+    "name": "Bose Mouse Pro 367",
+    "image": "https://picsum.photos/seed/el-120/400/300",
+    "description": "Designed for professionals who demand the best. Immersive sound quality that brings your music to life. Immersive sound quality that brings your music to life. The perfect companion for your daily adventures....",
+    "rating": 4.4,
+    "price": 4890,
+    "oldPrice": 6846
+  },
+  {
+    "id": "el-121",
+    "name": "Dell Smartphone Pro 743",
+    "image": "https://picsum.photos/seed/el-121/400/300",
+    "description": "Boost your productivity with lightning-fast processing. Compact and lightweight, perfect for travel. The perfect companion for your daily adventures. The perfect companion for your daily adventures. Boost your productivity with lightning-fast process...",
+    "rating": 4.3,
+    "price": 2250,
+    "oldPrice": 3375
+  },
+  {
+    "id": "el-122",
+    "name": "LG Speaker Air 235",
+    "image": "https://picsum.photos/seed/el-122/400/300",
+    "description": "Features a stunning display and all-day battery life. Stay connected wherever you go. Compact and lightweight, perfect for travel. Compact and lightweight, perfect for travel. Immersive sound quality that brings your music to life....",
+    "rating": 4.8,
+    "price": 16610,
+    "oldPrice": 19932
+  },
+  {
+    "id": "el-123",
+    "name": "LG Headphones Studio 745",
+    "image": "https://picsum.photos/seed/el-123/400/300",
+    "description": "Features a stunning display and all-day battery life. Capture every moment with crystal-clear precision. Sleek design meets powerful functionality. Sleek design meets powerful functionality. Experience the ultimate performance with this device....",
+    "rating": 4.5,
+    "price": 18680,
+    "oldPrice": 24284
+  },
+  {
+    "id": "el-124",
+    "name": "HP Camera Studio 243",
+    "image": "https://picsum.photos/seed/el-124/400/300",
+    "description": "Features a stunning display and all-day battery life. Capture every moment with crystal-clear precision. Stay connected wherever you go. Stay connected wherever you go. Experience the ultimate performance with this device....",
+    "rating": 4.8,
+    "price": 5370,
+    "oldPrice": 6444
+  },
+  {
+    "id": "el-125",
+    "name": "Sony Smartwatch Gaming 832",
+    "image": "https://picsum.photos/seed/el-125/400/300",
+    "description": "Compact and lightweight, perfect for travel. Stay connected wherever you go. Designed for professionals who demand the best. Experience the ultimate performance with this device. Boost your productivity with lightning-fast processing....",
+    "rating": 4.9,
+    "price": 7470,
+    "oldPrice": 8964
+  },
+  {
+    "id": "el-126",
+    "name": "Xiaomi Camera Mini 705",
+    "image": "https://picsum.photos/seed/el-126/400/300",
+    "description": "Capture every moment with crystal-clear precision. Experience the ultimate performance with this device. Compact and lightweight, perfect for travel. Boost your productivity with lightning-fast processing....",
+    "rating": 4.3,
+    "price": 19390,
+    "oldPrice": 25207
+  },
+  {
+    "id": "el-127",
+    "name": "Samsung Mouse Max 649",
+    "image": "https://picsum.photos/seed/el-127/400/300",
+    "description": "Designed for professionals who demand the best. Designed for professionals who demand the best. Sleek design meets powerful functionality. Features a stunning display and all-day battery life. Stay connected wherever you go....",
+    "rating": 4.3,
+    "price": 14020,
+    "oldPrice": 15422
+  },
+  {
+    "id": "el-128",
+    "name": "Xiaomi Keyboard Mini 394",
+    "image": "https://picsum.photos/seed/el-128/400/300",
+    "description": "Capture every moment with crystal-clear precision. Boost your productivity with lightning-fast processing. The perfect companion for your daily adventures. Immersive sound quality that brings your music to life....",
+    "rating": 4.6,
+    "price": 18810,
+    "oldPrice": 26334
+  },
+  {
+    "id": "el-129",
+    "name": "HP Tablet Lite 184",
+    "image": "https://picsum.photos/seed/el-129/400/300",
+    "description": "Experience the ultimate performance with this device. Immersive sound quality that brings your music to life. Boost your productivity with lightning-fast processing. Immersive sound quality that brings your music to life....",
+    "rating": 4.4,
+    "price": 18800,
+    "oldPrice": 26320
+  },
+  {
+    "id": "el-130",
+    "name": "Samsung Monitor Pro 172",
+    "image": "https://picsum.photos/seed/el-130/400/300",
+    "description": "Experience the ultimate performance with this device. Designed for professionals who demand the best. Boost your productivity with lightning-fast processing. Boost your productivity with lightning-fast processing....",
+    "rating": 4.1,
+    "price": 1670,
+    "oldPrice": 2004
+  },
+  {
+    "id": "el-131",
+    "name": "HP Speaker Ultra 253",
+    "image": "https://picsum.photos/seed/el-131/400/300",
+    "description": "Experience the ultimate performance with this device. Experience the ultimate performance with this device. Stay connected wherever you go. Stay connected wherever you go. The perfect companion for your daily adventures....",
+    "rating": 4.3,
+    "price": 16820,
+    "oldPrice": 25230
+  },
+  {
+    "id": "el-132",
+    "name": "Dell Tablet Gaming 512",
+    "image": "https://picsum.photos/seed/el-132/400/300",
+    "description": "Features a stunning display and all-day battery life. Boost your productivity with lightning-fast processing. Immersive sound quality that brings your music to life. Capture every moment with crystal-clear precision....",
+    "rating": 4.8,
+    "price": 16660,
+    "oldPrice": 21658
+  },
+  {
+    "id": "el-133",
+    "name": "Bose Keyboard Gaming 411",
+    "image": "https://picsum.photos/seed/el-133/400/300",
+    "description": "Immersive sound quality that brings your music to life. Features a stunning display and all-day battery life. The perfect companion for your daily adventures. Designed for professionals who demand the best....",
+    "rating": 4.1,
+    "price": 18150,
+    "oldPrice": 21780
+  },
+  {
+    "id": "el-134",
+    "name": "Sony Camera Lite 244",
+    "image": "https://picsum.photos/seed/el-134/400/300",
+    "description": "Compact and lightweight, perfect for travel. Experience the ultimate performance with this device. The perfect companion for your daily adventures. Features a stunning display and all-day battery life....",
+    "rating": 4.4,
+    "price": 920,
+    "oldPrice": 1380
+  },
+  {
+    "id": "el-135",
+    "name": "Sony Tablet Plus 664",
+    "image": "https://picsum.photos/seed/el-135/400/300",
+    "description": "Stay connected wherever you go. Boost your productivity with lightning-fast processing. Designed for professionals who demand the best. Boost your productivity with lightning-fast processing. Boost your productivity with lightning-fast processing....",
+    "rating": 4.7,
+    "price": 17890,
+    "oldPrice": 25046
+  },
+  {
+    "id": "el-136",
+    "name": "Samsung Camera Lite 380",
+    "image": "https://picsum.photos/seed/el-136/400/300",
+    "description": "Experience the ultimate performance with this device. The perfect companion for your daily adventures. The perfect companion for your daily adventures. Designed for professionals who demand the best....",
+    "rating": 4.1,
+    "price": 7640,
+    "oldPrice": 8404
+  },
+  {
+    "id": "el-137",
+    "name": "Xiaomi Keyboard Lite 900",
+    "image": "https://picsum.photos/seed/el-137/400/300",
+    "description": "Stay connected wherever you go. Sleek design meets powerful functionality. Capture every moment with crystal-clear precision. Compact and lightweight, perfect for travel. Immersive sound quality that brings your music to life....",
+    "rating": 4.1,
+    "price": 10010,
+    "oldPrice": 14014
+  },
+  {
+    "id": "el-138",
+    "name": "Xiaomi Monitor Plus 395",
+    "image": "https://picsum.photos/seed/el-138/400/300",
+    "description": "Compact and lightweight, perfect for travel. Stay connected wherever you go. Capture every moment with crystal-clear precision. Stay connected wherever you go. Features a stunning display and all-day battery life....",
+    "rating": 4.9,
+    "price": 9770,
+    "oldPrice": 12701
+  },
+  {
+    "id": "el-139",
+    "name": "Sony Mouse Pro 454",
+    "image": "https://picsum.photos/seed/el-139/400/300",
+    "description": "Experience the ultimate performance with this device. Capture every moment with crystal-clear precision. Compact and lightweight, perfect for travel. Stay connected wherever you go. Stay connected wherever you go....",
+    "rating": 4.1,
+    "price": 12600,
+    "oldPrice": 16380
+  },
+  {
+    "id": "el-140",
+    "name": "Dell Headphones Pro 824",
+    "image": "https://picsum.photos/seed/el-140/400/300",
+    "description": "The perfect companion for your daily adventures. Experience the ultimate performance with this device. Features a stunning display and all-day battery life. Boost your productivity with lightning-fast processing....",
+    "rating": 4.2,
+    "price": 6930,
+    "oldPrice": 7623
+  },
+  {
+    "id": "el-141",
+    "name": "Bose Laptop Pro 443",
+    "image": "https://picsum.photos/seed/el-141/400/300",
+    "description": "Capture every moment with crystal-clear precision. Boost your productivity with lightning-fast processing. Compact and lightweight, perfect for travel. Boost your productivity with lightning-fast processing....",
+    "rating": 4.3,
+    "price": 2850,
+    "oldPrice": 4275
+  },
+  {
+    "id": "el-142",
+    "name": "Bose Headphones Air 536",
+    "image": "https://picsum.photos/seed/el-142/400/300",
+    "description": "Sleek design meets powerful functionality. Boost your productivity with lightning-fast processing. Designed for professionals who demand the best. Sleek design meets powerful functionality. Stay connected wherever you go....",
+    "rating": 4.2,
+    "price": 15880,
+    "oldPrice": 22232
+  },
+  {
+    "id": "el-143",
+    "name": "LG Headphones Plus 488",
+    "image": "https://picsum.photos/seed/el-143/400/300",
+    "description": "Stay connected wherever you go. The perfect companion for your daily adventures. Designed for professionals who demand the best. Compact and lightweight, perfect for travel. The perfect companion for your daily adventures....",
+    "rating": 4.1,
+    "price": 19760,
+    "oldPrice": 27664
+  },
+  {
+    "id": "el-144",
+    "name": "HP Smartwatch Studio 745",
+    "image": "https://picsum.photos/seed/el-144/400/300",
+    "description": "The perfect companion for your daily adventures. Compact and lightweight, perfect for travel. Experience the ultimate performance with this device. Experience the ultimate performance with this device....",
+    "rating": 4.6,
+    "price": 15960,
+    "oldPrice": 22344
+  },
+  {
+    "id": "el-145",
+    "name": "Apple Smartphone Mini 705",
+    "image": "https://picsum.photos/seed/el-145/400/300",
+    "description": "Compact and lightweight, perfect for travel. The perfect companion for your daily adventures. Capture every moment with crystal-clear precision. Experience the ultimate performance with this device. Stay connected wherever you go....",
+    "rating": 4.1,
+    "price": 1380,
+    "oldPrice": 1794
+  },
+  {
+    "id": "el-146",
+    "name": "Asus Smartphone Max 888",
+    "image": "https://picsum.photos/seed/el-146/400/300",
+    "description": "Immersive sound quality that brings your music to life. Designed for professionals who demand the best. Capture every moment with crystal-clear precision. Capture every moment with crystal-clear precision....",
+    "rating": 4.1,
+    "price": 3660,
+    "oldPrice": 4392
+  },
+  {
+    "id": "el-147",
+    "name": "Xiaomi Tablet Elite 862",
+    "image": "https://picsum.photos/seed/el-147/400/300",
+    "description": "Compact and lightweight, perfect for travel. Capture every moment with crystal-clear precision. Sleek design meets powerful functionality. Designed for professionals who demand the best. Compact and lightweight, perfect for travel....",
+    "rating": 4.7,
+    "price": 2990,
+    "oldPrice": 3887
+  },
+  {
+    "id": "el-148",
+    "name": "HP Smartphone Ultra 506",
+    "image": "https://picsum.photos/seed/el-148/400/300",
+    "description": "Sleek design meets powerful functionality. Designed for professionals who demand the best. Designed for professionals who demand the best. Immersive sound quality that brings your music to life. Experience the ultimate performance with this device....",
+    "rating": 4,
+    "price": 15410,
+    "oldPrice": 21574
+  },
+  {
+    "id": "el-149",
+    "name": "LG Speaker Mini 518",
+    "image": "https://picsum.photos/seed/el-149/400/300",
+    "description": "The perfect companion for your daily adventures. The perfect companion for your daily adventures. Compact and lightweight, perfect for travel. Capture every moment with crystal-clear precision. Features a stunning display and all-day battery life....",
+    "rating": 4.5,
+    "price": 10830,
+    "oldPrice": 14079
+  },
+  {
+    "id": "el-150",
+    "name": "Lenovo Speaker Elite 226",
+    "image": "https://picsum.photos/seed/el-150/400/300",
+    "description": "Designed for professionals who demand the best. Sleek design meets powerful functionality. Sleek design meets powerful functionality. Sleek design meets powerful functionality. Compact and lightweight, perfect for travel....",
+    "rating": 4.2,
+    "price": 8670,
+    "oldPrice": 9537
+  },
+  {
+    "id": "el-151",
+    "name": "Asus Laptop Plus 326",
+    "image": "https://picsum.photos/seed/el-151/400/300",
+    "description": "Immersive sound quality that brings your music to life. Features a stunning display and all-day battery life. Capture every moment with crystal-clear precision. Stay connected wherever you go. Sleek design meets powerful functionality....",
+    "rating": 4.1,
+    "price": 2910,
+    "oldPrice": 3201
+  },
+  {
+    "id": "el-152",
+    "name": "Sony Speaker Elite 582",
+    "image": "https://picsum.photos/seed/el-152/400/300",
+    "description": "Features a stunning display and all-day battery life. Capture every moment with crystal-clear precision. The perfect companion for your daily adventures. Immersive sound quality that brings your music to life....",
+    "rating": 4.9,
+    "price": 17610,
+    "oldPrice": 21132
+  },
+  {
+    "id": "el-153",
+    "name": "Asus Laptop Plus 240",
+    "image": "https://picsum.photos/seed/el-153/400/300",
+    "description": "Designed for professionals who demand the best. Capture every moment with crystal-clear precision. Capture every moment with crystal-clear precision. Boost your productivity with lightning-fast processing....",
+    "rating": 4.7,
+    "price": 7440,
+    "oldPrice": 10416
+  },
+  {
+    "id": "el-154",
+    "name": "Lenovo Mouse Ultra 563",
+    "image": "https://picsum.photos/seed/el-154/400/300",
+    "description": "Experience the ultimate performance with this device. The perfect companion for your daily adventures. The perfect companion for your daily adventures. Designed for professionals who demand the best....",
+    "rating": 4.4,
+    "price": 5910,
+    "oldPrice": 8274
+  },
+  {
+    "id": "el-155",
+    "name": "Dell Keyboard Elite 117",
+    "image": "https://picsum.photos/seed/el-155/400/300",
+    "description": "Capture every moment with crystal-clear precision. Designed for professionals who demand the best. Compact and lightweight, perfect for travel. Immersive sound quality that brings your music to life....",
+    "rating": 4.1,
+    "price": 19740,
+    "oldPrice": 25662
+  },
+  {
+    "id": "el-156",
+    "name": "LG Camera Pro 405",
+    "image": "https://picsum.photos/seed/el-156/400/300",
+    "description": "Designed for professionals who demand the best. Stay connected wherever you go. Immersive sound quality that brings your music to life. Sleek design meets powerful functionality. Immersive sound quality that brings your music to life....",
+    "rating": 4.1,
+    "price": 17380,
+    "oldPrice": 20856
+  },
+  {
+    "id": "el-157",
+    "name": "HP Smartphone Mini 156",
+    "image": "https://picsum.photos/seed/el-157/400/300",
+    "description": "Experience the ultimate performance with this device. Experience the ultimate performance with this device. Stay connected wherever you go. Experience the ultimate performance with this device. Boost your productivity with lightning-fast processing....",
+    "rating": 4.7,
+    "price": 10750,
+    "oldPrice": 15049
+  },
+  {
+    "id": "el-158",
+    "name": "Samsung Keyboard Pro 653",
+    "image": "https://picsum.photos/seed/el-158/400/300",
+    "description": "Features a stunning display and all-day battery life. Experience the ultimate performance with this device. Features a stunning display and all-day battery life. The perfect companion for your daily adventures....",
+    "rating": 4.1,
+    "price": 12090,
+    "oldPrice": 13299
+  },
+  {
+    "id": "el-159",
+    "name": "Samsung Monitor Max 628",
+    "image": "https://picsum.photos/seed/el-159/400/300",
+    "description": "Experience the ultimate performance with this device. Designed for professionals who demand the best. Designed for professionals who demand the best. Boost your productivity with lightning-fast processing....",
+    "rating": 4.9,
+    "price": 19890,
+    "oldPrice": 23868
+  },
+  {
+    "id": "el-160",
+    "name": "Dell Headphones Plus 832",
+    "image": "https://picsum.photos/seed/el-160/400/300",
+    "description": "Designed for professionals who demand the best. Boost your productivity with lightning-fast processing. Capture every moment with crystal-clear precision. Immersive sound quality that brings your music to life....",
+    "rating": 4.9,
+    "price": 7420,
+    "oldPrice": 9646
+  },
+  {
+    "id": "el-161",
+    "name": "Apple Keyboard Studio 760",
+    "image": "https://picsum.photos/seed/el-161/400/300",
+    "description": "Immersive sound quality that brings your music to life. Immersive sound quality that brings your music to life. Boost your productivity with lightning-fast processing. Designed for professionals who demand the best....",
+    "rating": 4.4,
+    "price": 9040,
+    "oldPrice": 12656
+  },
+  {
+    "id": "el-162",
+    "name": "Xiaomi Camera Elite 817",
+    "image": "https://picsum.photos/seed/el-162/400/300",
+    "description": "The perfect companion for your daily adventures. Features a stunning display and all-day battery life. The perfect companion for your daily adventures. Boost your productivity with lightning-fast processing....",
+    "rating": 4.8,
+    "price": 17020,
+    "oldPrice": 18722
+  },
+  {
+    "id": "el-163",
+    "name": "HP Monitor Air 290",
+    "image": "https://picsum.photos/seed/el-163/400/300",
+    "description": "Capture every moment with crystal-clear precision. Stay connected wherever you go. Designed for professionals who demand the best. Capture every moment with crystal-clear precision. Designed for professionals who demand the best....",
+    "rating": 5,
+    "price": 15290,
+    "oldPrice": 19877
+  },
+  {
+    "id": "el-164",
+    "name": "Sony Smartwatch Elite 151",
+    "image": "https://picsum.photos/seed/el-164/400/300",
+    "description": "Sleek design meets powerful functionality. Capture every moment with crystal-clear precision. The perfect companion for your daily adventures. Immersive sound quality that brings your music to life. Designed for professionals who demand the best....",
+    "rating": 5,
+    "price": 17680,
+    "oldPrice": 24752
+  },
+  {
+    "id": "el-165",
+    "name": "Xiaomi Tablet Max 303",
+    "image": "https://picsum.photos/seed/el-165/400/300",
+    "description": "Stay connected wherever you go. Stay connected wherever you go. Compact and lightweight, perfect for travel. Designed for professionals who demand the best. Sleek design meets powerful functionality....",
+    "rating": 4.1,
+    "price": 2910,
+    "oldPrice": 3492
+  },
+  {
+    "id": "el-166",
+    "name": "Sony Smartwatch Ultra 463",
+    "image": "https://picsum.photos/seed/el-166/400/300",
+    "description": "Designed for professionals who demand the best. Features a stunning display and all-day battery life. Boost your productivity with lightning-fast processing. Capture every moment with crystal-clear precision....",
+    "rating": 5,
+    "price": 15840,
+    "oldPrice": 23760
+  },
+  {
+    "id": "el-167",
+    "name": "Asus Smartwatch Gaming 370",
+    "image": "https://picsum.photos/seed/el-167/400/300",
+    "description": "Features a stunning display and all-day battery life. Capture every moment with crystal-clear precision. The perfect companion for your daily adventures. Boost your productivity with lightning-fast processing....",
+    "rating": 4.6,
+    "price": 4020,
+    "oldPrice": 5628
+  },
+  {
+    "id": "el-168",
+    "name": "Lenovo Camera Max 809",
+    "image": "https://picsum.photos/seed/el-168/400/300",
+    "description": "Compact and lightweight, perfect for travel. Immersive sound quality that brings your music to life. Features a stunning display and all-day battery life. The perfect companion for your daily adventures....",
+    "rating": 4.1,
+    "price": 1870,
+    "oldPrice": 2618
+  },
+  {
+    "id": "el-169",
+    "name": "Xiaomi Smartwatch Mini 157",
+    "image": "https://picsum.photos/seed/el-169/400/300",
+    "description": "Designed for professionals who demand the best. The perfect companion for your daily adventures. Capture every moment with crystal-clear precision. Stay connected wherever you go. Compact and lightweight, perfect for travel....",
+    "rating": 4.2,
+    "price": 2280,
+    "oldPrice": 2508
+  },
+  {
+    "id": "el-170",
+    "name": "Asus Tablet Ultra 260",
+    "image": "https://picsum.photos/seed/el-170/400/300",
+    "description": "Compact and lightweight, perfect for travel. Compact and lightweight, perfect for travel. Designed for professionals who demand the best. Stay connected wherever you go. Immersive sound quality that brings your music to life....",
+    "rating": 4.2,
+    "price": 4940,
+    "oldPrice": 6422
+  },
+  {
+    "id": "el-171",
+    "name": "Bose Speaker Air 427",
+    "image": "https://picsum.photos/seed/el-171/400/300",
+    "description": "Sleek design meets powerful functionality. Boost your productivity with lightning-fast processing. Experience the ultimate performance with this device. Sleek design meets powerful functionality. Stay connected wherever you go....",
+    "rating": 4.4,
+    "price": 17530,
+    "oldPrice": 22789
+  },
+  {
+    "id": "el-172",
+    "name": "HP Tablet Pro 366",
+    "image": "https://picsum.photos/seed/el-172/400/300",
+    "description": "Stay connected wherever you go. Stay connected wherever you go. Designed for professionals who demand the best. Sleek design meets powerful functionality. Sleek design meets powerful functionality. Features a stunning display and all-day battery life...",
+    "rating": 4.9,
+    "price": 5950,
+    "oldPrice": 6545
+  },
+  {
+    "id": "el-173",
+    "name": "Apple Smartphone Max 114",
+    "image": "https://picsum.photos/seed/el-173/400/300",
+    "description": "Features a stunning display and all-day battery life. Boost your productivity with lightning-fast processing. The perfect companion for your daily adventures. Boost your productivity with lightning-fast processing....",
+    "rating": 4,
+    "price": 1770,
+    "oldPrice": 2301
+  },
+  {
+    "id": "el-174",
+    "name": "HP Camera Pro 327",
+    "image": "https://picsum.photos/seed/el-174/400/300",
+    "description": "Sleek design meets powerful functionality. Compact and lightweight, perfect for travel. Features a stunning display and all-day battery life. Stay connected wherever you go. Stay connected wherever you go....",
+    "rating": 4.4,
+    "price": 14460,
+    "oldPrice": 18798
+  },
+  {
+    "id": "el-175",
+    "name": "Apple Keyboard Air 764",
+    "image": "https://picsum.photos/seed/el-175/400/300",
+    "description": "Capture every moment with crystal-clear precision. Capture every moment with crystal-clear precision. Compact and lightweight, perfect for travel. The perfect companion for your daily adventures. Immersive sound quality that brings your music to life...",
+    "rating": 4.8,
+    "price": 13420,
+    "oldPrice": 20130
+  },
+  {
+    "id": "el-176",
+    "name": "Sony Keyboard Lite 289",
+    "image": "https://picsum.photos/seed/el-176/400/300",
+    "description": "Immersive sound quality that brings your music to life. Designed for professionals who demand the best. The perfect companion for your daily adventures. The perfect companion for your daily adventures....",
+    "rating": 4.2,
+    "price": 18990,
+    "oldPrice": 22788
+  },
+  {
+    "id": "el-177",
+    "name": "Apple Speaker Mini 523",
+    "image": "https://picsum.photos/seed/el-177/400/300",
+    "description": "Boost your productivity with lightning-fast processing. Designed for professionals who demand the best. Sleek design meets powerful functionality. Features a stunning display and all-day battery life....",
+    "rating": 5,
+    "price": 14010,
+    "oldPrice": 21015
+  },
+  {
+    "id": "el-178",
+    "name": "Lenovo Smartwatch Gaming 608",
+    "image": "https://picsum.photos/seed/el-178/400/300",
+    "description": "Capture every moment with crystal-clear precision. Capture every moment with crystal-clear precision. Features a stunning display and all-day battery life. Compact and lightweight, perfect for travel....",
+    "rating": 4.8,
+    "price": 2820,
+    "oldPrice": 3666
+  },
+  {
+    "id": "el-179",
+    "name": "HP Keyboard Plus 111",
+    "image": "https://picsum.photos/seed/el-179/400/300",
+    "description": "Experience the ultimate performance with this device. Immersive sound quality that brings your music to life. Features a stunning display and all-day battery life. Boost your productivity with lightning-fast processing....",
+    "rating": 4.7,
+    "price": 6160,
+    "oldPrice": 8624
+  },
+  {
+    "id": "el-180",
+    "name": "Samsung Mouse Lite 694",
+    "image": "https://picsum.photos/seed/el-180/400/300",
+    "description": "Features a stunning display and all-day battery life. Features a stunning display and all-day battery life. Capture every moment with crystal-clear precision. Designed for professionals who demand the best....",
+    "rating": 5,
+    "price": 15440,
+    "oldPrice": 20072
+  },
+  {
+    "id": "el-181",
+    "name": "Sony Camera Studio 340",
+    "image": "https://picsum.photos/seed/el-181/400/300",
+    "description": "Designed for professionals who demand the best. Boost your productivity with lightning-fast processing. Capture every moment with crystal-clear precision. Designed for professionals who demand the best....",
+    "rating": 4.7,
+    "price": 6030,
+    "oldPrice": 8442
+  },
+  {
+    "id": "el-182",
+    "name": "Sony Laptop Gaming 205",
+    "image": "https://picsum.photos/seed/el-182/400/300",
+    "description": "Boost your productivity with lightning-fast processing. Capture every moment with crystal-clear precision. Designed for professionals who demand the best. Sleek design meets powerful functionality. Stay connected wherever you go....",
+    "rating": 4.8,
+    "price": 12220,
+    "oldPrice": 17108
+  },
+  {
+    "id": "el-183",
+    "name": "Asus Laptop Lite 700",
+    "image": "https://picsum.photos/seed/el-183/400/300",
+    "description": "Sleek design meets powerful functionality. Capture every moment with crystal-clear precision. Features a stunning display and all-day battery life. Immersive sound quality that brings your music to life....",
+    "rating": 4.3,
+    "price": 16520,
+    "oldPrice": 19824
+  },
+  {
+    "id": "el-184",
+    "name": "Apple Smartwatch Lite 588",
+    "image": "https://picsum.photos/seed/el-184/400/300",
+    "description": "Boost your productivity with lightning-fast processing. Boost your productivity with lightning-fast processing. Immersive sound quality that brings your music to life. Capture every moment with crystal-clear precision....",
+    "rating": 4.7,
+    "price": 6610,
+    "oldPrice": 9254
+  },
+  {
+    "id": "el-185",
+    "name": "Lenovo Headphones Studio 157",
+    "image": "https://picsum.photos/seed/el-185/400/300",
+    "description": "Sleek design meets powerful functionality. Experience the ultimate performance with this device. Experience the ultimate performance with this device. Boost your productivity with lightning-fast processing....",
+    "rating": 4.3,
+    "price": 7610,
+    "oldPrice": 9893
+  },
+  {
+    "id": "el-186",
+    "name": "Apple Keyboard Pro 463",
+    "image": "https://picsum.photos/seed/el-186/400/300",
+    "description": "Stay connected wherever you go. Compact and lightweight, perfect for travel. Experience the ultimate performance with this device. Stay connected wherever you go. Sleek design meets powerful functionality....",
+    "rating": 4.1,
+    "price": 19920,
+    "oldPrice": 27888
+  },
+  {
+    "id": "el-187",
+    "name": "Samsung Laptop Ultra 482",
+    "image": "https://picsum.photos/seed/el-187/400/300",
+    "description": "Features a stunning display and all-day battery life. Features a stunning display and all-day battery life. Boost your productivity with lightning-fast processing. Compact and lightweight, perfect for travel....",
+    "rating": 4.1,
+    "price": 2690,
+    "oldPrice": 3765
+  },
+  {
+    "id": "el-188",
+    "name": "Xiaomi Keyboard Max 608",
+    "image": "https://picsum.photos/seed/el-188/400/300",
+    "description": "Immersive sound quality that brings your music to life. Features a stunning display and all-day battery life. The perfect companion for your daily adventures. Capture every moment with crystal-clear precision....",
+    "rating": 4.9,
+    "price": 6350,
+    "oldPrice": 8255
+  },
+  {
+    "id": "el-189",
+    "name": "Bose Laptop Air 726",
+    "image": "https://picsum.photos/seed/el-189/400/300",
+    "description": "Stay connected wherever you go. Compact and lightweight, perfect for travel. Designed for professionals who demand the best. Designed for professionals who demand the best. Sleek design meets powerful functionality....",
+    "rating": 5,
+    "price": 9260,
+    "oldPrice": 10186
+  },
+  {
+    "id": "el-190",
+    "name": "Asus Camera Lite 177",
+    "image": "https://picsum.photos/seed/el-190/400/300",
+    "description": "Features a stunning display and all-day battery life. The perfect companion for your daily adventures. Stay connected wherever you go. Capture every moment with crystal-clear precision. Compact and lightweight, perfect for travel....",
+    "rating": 4.9,
+    "price": 5890,
+    "oldPrice": 8246
+  },
+  {
+    "id": "el-191",
+    "name": "Bose Speaker Gaming 548",
+    "image": "https://picsum.photos/seed/el-191/400/300",
+    "description": "Capture every moment with crystal-clear precision. Experience the ultimate performance with this device. Features a stunning display and all-day battery life. Sleek design meets powerful functionality....",
+    "rating": 4.5,
+    "price": 16460,
+    "oldPrice": 23044
+  },
+  {
+    "id": "el-192",
+    "name": "Apple Smartwatch Mini 738",
+    "image": "https://picsum.photos/seed/el-192/400/300",
+    "description": "Designed for professionals who demand the best. Boost your productivity with lightning-fast processing. The perfect companion for your daily adventures. Designed for professionals who demand the best....",
+    "rating": 4.9,
+    "price": 2840,
+    "oldPrice": 3975
+  },
+  {
+    "id": "el-193",
+    "name": "Dell Camera Elite 569",
+    "image": "https://picsum.photos/seed/el-193/400/300",
+    "description": "Designed for professionals who demand the best. Designed for professionals who demand the best. Capture every moment with crystal-clear precision. Designed for professionals who demand the best. Immersive sound quality that brings your music to life....",
+    "rating": 4.7,
+    "price": 9410,
+    "oldPrice": 14115
+  },
+  {
+    "id": "el-194",
+    "name": "Sony Smartphone Air 474",
+    "image": "https://picsum.photos/seed/el-194/400/300",
+    "description": "Features a stunning display and all-day battery life. Features a stunning display and all-day battery life. Experience the ultimate performance with this device. Designed for professionals who demand the best....",
+    "rating": 4.4,
+    "price": 15080,
+    "oldPrice": 21112
+  },
+  {
+    "id": "el-195",
+    "name": "Lenovo Monitor Studio 422",
+    "image": "https://picsum.photos/seed/el-195/400/300",
+    "description": "Experience the ultimate performance with this device. Stay connected wherever you go. Boost your productivity with lightning-fast processing. Boost your productivity with lightning-fast processing. Stay connected wherever you go....",
+    "rating": 4.2,
+    "price": 14540,
+    "oldPrice": 20356
+  },
+  {
+    "id": "el-196",
+    "name": "Dell Laptop Studio 449",
+    "image": "https://picsum.photos/seed/el-196/400/300",
+    "description": "Designed for professionals who demand the best. Boost your productivity with lightning-fast processing. Compact and lightweight, perfect for travel. Stay connected wherever you go. Experience the ultimate performance with this device....",
+    "rating": 4.9,
+    "price": 5500,
+    "oldPrice": 8250
+  },
+  {
+    "id": "el-197",
+    "name": "Xiaomi Laptop Max 728",
+    "image": "https://picsum.photos/seed/el-197/400/300",
+    "description": "The perfect companion for your daily adventures. The perfect companion for your daily adventures. The perfect companion for your daily adventures. Capture every moment with crystal-clear precision. Features a stunning display and all-day battery life...",
+    "rating": 4.8,
+    "price": 1030,
+    "oldPrice": 1339
+  },
+  {
+    "id": "el-198",
+    "name": "Xiaomi Camera Elite 396",
+    "image": "https://picsum.photos/seed/el-198/400/300",
+    "description": "Capture every moment with crystal-clear precision. Stay connected wherever you go. Capture every moment with crystal-clear precision. Compact and lightweight, perfect for travel. Capture every moment with crystal-clear precision....",
+    "rating": 4.4,
+    "price": 1480,
+    "oldPrice": 2072
+  },
+  {
+    "id": "el-199",
+    "name": "Bose Tablet Pro 431",
+    "image": "https://picsum.photos/seed/el-199/400/300",
+    "description": "Compact and lightweight, perfect for travel. Compact and lightweight, perfect for travel. Features a stunning display and all-day battery life. Immersive sound quality that brings your music to life....",
+    "rating": 4.4,
+    "price": 19090,
+    "oldPrice": 26726
+  },
+  {
+    "id": "el-200",
+    "name": "Sony Mouse Lite 666",
+    "image": "https://picsum.photos/seed/el-200/400/300",
+    "description": "Experience the ultimate performance with this device. Experience the ultimate performance with this device. Compact and lightweight, perfect for travel. Compact and lightweight, perfect for travel. Capture every moment with crystal-clear precision....",
+    "rating": 4.2,
+    "price": 1950,
+    "oldPrice": 2535
+  },
+  {
+    "id": "el-201",
+    "name": "Xiaomi Keyboard Mini 229",
+    "image": "https://picsum.photos/seed/el-201/400/300",
+    "description": "Immersive sound quality that brings your music to life. Designed for professionals who demand the best. Designed for professionals who demand the best. Experience the ultimate performance with this device....",
+    "rating": 4.7,
+    "price": 5210,
+    "oldPrice": 6252
+  },
+  {
+    "id": "el-202",
+    "name": "Samsung Smartwatch Gaming 517",
+    "image": "https://picsum.photos/seed/el-202/400/300",
+    "description": "Boost your productivity with lightning-fast processing. Experience the ultimate performance with this device. Compact and lightweight, perfect for travel. Stay connected wherever you go. The perfect companion for your daily adventures....",
+    "rating": 4.2,
+    "price": 9140,
+    "oldPrice": 13710
+  },
+  {
+    "id": "el-203",
+    "name": "Dell Speaker Elite 115",
+    "image": "https://picsum.photos/seed/el-203/400/300",
+    "description": "Immersive sound quality that brings your music to life. Stay connected wherever you go. Boost your productivity with lightning-fast processing. Stay connected wherever you go. Designed for professionals who demand the best....",
+    "rating": 4.8,
+    "price": 19260,
+    "oldPrice": 23112
+  },
+  {
+    "id": "el-204",
+    "name": "Apple Camera Ultra 413",
+    "image": "https://picsum.photos/seed/el-204/400/300",
+    "description": "Stay connected wherever you go. Stay connected wherever you go. Stay connected wherever you go. Capture every moment with crystal-clear precision. Immersive sound quality that brings your music to life....",
+    "rating": 4.7,
+    "price": 2690,
+    "oldPrice": 3497
+  },
+  {
+    "id": "el-205",
+    "name": "HP Monitor Studio 343",
+    "image": "https://picsum.photos/seed/el-205/400/300",
+    "description": "Capture every moment with crystal-clear precision. Compact and lightweight, perfect for travel. Features a stunning display and all-day battery life. Compact and lightweight, perfect for travel. Capture every moment with crystal-clear precision....",
+    "rating": 4.7,
+    "price": 15400,
+    "oldPrice": 20020
+  },
+  {
+    "id": "el-206",
+    "name": "Dell Camera Elite 595",
+    "image": "https://picsum.photos/seed/el-206/400/300",
+    "description": "Boost your productivity with lightning-fast processing. Compact and lightweight, perfect for travel. The perfect companion for your daily adventures. Designed for professionals who demand the best. The perfect companion for your daily adventures....",
+    "rating": 4.1,
+    "price": 9920,
+    "oldPrice": 11904
+  },
+  {
+    "id": "el-207",
+    "name": "Dell Laptop Air 613",
+    "image": "https://picsum.photos/seed/el-207/400/300",
+    "description": "Experience the ultimate performance with this device. Immersive sound quality that brings your music to life. Boost your productivity with lightning-fast processing. Boost your productivity with lightning-fast processing....",
+    "rating": 4.4,
+    "price": 2900,
+    "oldPrice": 3480
+  },
+  {
+    "id": "el-208",
+    "name": "Lenovo Keyboard Pro 438",
+    "image": "https://picsum.photos/seed/el-208/400/300",
+    "description": "Immersive sound quality that brings your music to life. Compact and lightweight, perfect for travel. Stay connected wherever you go. Boost your productivity with lightning-fast processing. Capture every moment with crystal-clear precision....",
+    "rating": 4.8,
+    "price": 15600,
+    "oldPrice": 18720
+  },
+  {
+    "id": "el-209",
+    "name": "Lenovo Smartphone Plus 520",
+    "image": "https://picsum.photos/seed/el-209/400/300",
+    "description": "Immersive sound quality that brings your music to life. Immersive sound quality that brings your music to life. Compact and lightweight, perfect for travel. Sleek design meets powerful functionality....",
+    "rating": 4.7,
+    "price": 2280,
+    "oldPrice": 2964
+  },
+  {
+    "id": "el-210",
+    "name": "Xiaomi Laptop Max 242",
+    "image": "https://picsum.photos/seed/el-210/400/300",
+    "description": "Experience the ultimate performance with this device. Immersive sound quality that brings your music to life. Sleek design meets powerful functionality. The perfect companion for your daily adventures....",
+    "rating": 5,
+    "price": 10150,
+    "oldPrice": 13195
+  },
+  {
+    "id": "el-211",
+    "name": "HP Speaker Air 653",
+    "image": "https://picsum.photos/seed/el-211/400/300",
+    "description": "Compact and lightweight, perfect for travel. Experience the ultimate performance with this device. The perfect companion for your daily adventures. Capture every moment with crystal-clear precision. The perfect companion for your daily adventures....",
+    "rating": 5,
+    "price": 8860,
+    "oldPrice": 9746
+  },
+  {
+    "id": "el-212",
+    "name": "Asus Mouse Max 222",
+    "image": "https://picsum.photos/seed/el-212/400/300",
+    "description": "Immersive sound quality that brings your music to life. Boost your productivity with lightning-fast processing. Immersive sound quality that brings your music to life. Capture every moment with crystal-clear precision....",
+    "rating": 4.7,
+    "price": 11610,
+    "oldPrice": 15093
+  },
+  {
+    "id": "el-213",
+    "name": "Xiaomi Tablet Studio 245",
+    "image": "https://picsum.photos/seed/el-213/400/300",
+    "description": "The perfect companion for your daily adventures. Sleek design meets powerful functionality. Stay connected wherever you go. Compact and lightweight, perfect for travel. The perfect companion for your daily adventures....",
+    "rating": 4,
+    "price": 12330,
+    "oldPrice": 17262
+  },
+  {
+    "id": "el-214",
+    "name": "Lenovo Camera Max 428",
+    "image": "https://picsum.photos/seed/el-214/400/300",
+    "description": "Capture every moment with crystal-clear precision. Features a stunning display and all-day battery life. Features a stunning display and all-day battery life. Designed for professionals who demand the best....",
+    "rating": 4.5,
+    "price": 16920,
+    "oldPrice": 21996
+  },
+  {
+    "id": "el-215",
+    "name": "Bose Smartphone Max 278",
+    "image": "https://picsum.photos/seed/el-215/400/300",
+    "description": "Features a stunning display and all-day battery life. Sleek design meets powerful functionality. Features a stunning display and all-day battery life. Designed for professionals who demand the best. Boost your productivity with lightning-fast process...",
+    "rating": 4.5,
+    "price": 5310,
+    "oldPrice": 7965
+  },
+  {
+    "id": "el-216",
+    "name": "Asus Keyboard Plus 343",
+    "image": "https://picsum.photos/seed/el-216/400/300",
+    "description": "Sleek design meets powerful functionality. Experience the ultimate performance with this device. Capture every moment with crystal-clear precision. Immersive sound quality that brings your music to life....",
+    "rating": 4.2,
+    "price": 8170,
+    "oldPrice": 9804
+  },
+  {
+    "id": "el-217",
+    "name": "Asus Camera Plus 508",
+    "image": "https://picsum.photos/seed/el-217/400/300",
+    "description": "Features a stunning display and all-day battery life. Sleek design meets powerful functionality. Immersive sound quality that brings your music to life. Boost your productivity with lightning-fast processing....",
+    "rating": 4.3,
+    "price": 3850,
+    "oldPrice": 5390
+  },
+  {
+    "id": "el-218",
+    "name": "LG Smartphone Mini 140",
+    "image": "https://picsum.photos/seed/el-218/400/300",
+    "description": "Compact and lightweight, perfect for travel. Designed for professionals who demand the best. Stay connected wherever you go. Immersive sound quality that brings your music to life. The perfect companion for your daily adventures....",
+    "rating": 4.6,
+    "price": 2260,
+    "oldPrice": 3164
+  },
+  {
+    "id": "el-219",
+    "name": "HP Tablet Lite 766",
+    "image": "https://picsum.photos/seed/el-219/400/300",
+    "description": "Designed for professionals who demand the best. Capture every moment with crystal-clear precision. Boost your productivity with lightning-fast processing. Features a stunning display and all-day battery life....",
+    "rating": 4.9,
+    "price": 7640,
+    "oldPrice": 10696
+  },
+  {
+    "id": "el-220",
+    "name": "HP Mouse Max 853",
+    "image": "https://picsum.photos/seed/el-220/400/300",
+    "description": "Sleek design meets powerful functionality. Sleek design meets powerful functionality. Experience the ultimate performance with this device. Features a stunning display and all-day battery life. Boost your productivity with lightning-fast processing....",
+    "rating": 4.5,
+    "price": 8050,
+    "oldPrice": 11270
+  },
+  {
+    "id": "el-221",
+    "name": "Asus Keyboard Studio 730",
+    "image": "https://picsum.photos/seed/el-221/400/300",
+    "description": "Stay connected wherever you go. Designed for professionals who demand the best. Sleek design meets powerful functionality. Stay connected wherever you go. Features a stunning display and all-day battery life....",
+    "rating": 4.1,
+    "price": 7240,
+    "oldPrice": 7964
+  },
+  {
+    "id": "el-222",
+    "name": "Sony Camera Ultra 252",
+    "image": "https://picsum.photos/seed/el-222/400/300",
+    "description": "Sleek design meets powerful functionality. Capture every moment with crystal-clear precision. Sleek design meets powerful functionality. Capture every moment with crystal-clear precision. Capture every moment with crystal-clear precision....",
+    "rating": 4.8,
+    "price": 6700,
+    "oldPrice": 10050
+  },
+  {
+    "id": "el-223",
+    "name": "Asus Camera Lite 566",
+    "image": "https://picsum.photos/seed/el-223/400/300",
+    "description": "Stay connected wherever you go. Experience the ultimate performance with this device. Sleek design meets powerful functionality. Sleek design meets powerful functionality. Capture every moment with crystal-clear precision....",
+    "rating": 4.5,
+    "price": 15200,
+    "oldPrice": 19760
+  },
+  {
+    "id": "el-224",
+    "name": "Sony Camera Plus 228",
+    "image": "https://picsum.photos/seed/el-224/400/300",
+    "description": "Experience the ultimate performance with this device. Boost your productivity with lightning-fast processing. Compact and lightweight, perfect for travel. Boost your productivity with lightning-fast processing....",
+    "rating": 4.5,
+    "price": 12040,
+    "oldPrice": 14448
+  },
+  {
+    "id": "el-225",
+    "name": "Xiaomi Smartwatch Elite 210",
+    "image": "https://picsum.photos/seed/el-225/400/300",
+    "description": "Compact and lightweight, perfect for travel. Stay connected wherever you go. Boost your productivity with lightning-fast processing. Capture every moment with crystal-clear precision. Compact and lightweight, perfect for travel....",
+    "rating": 4.6,
+    "price": 5680,
+    "oldPrice": 6248
+  },
+  {
+    "id": "el-226",
+    "name": "Apple Camera Lite 602",
+    "image": "https://picsum.photos/seed/el-226/400/300",
+    "description": "The perfect companion for your daily adventures. Stay connected wherever you go. Immersive sound quality that brings your music to life. Sleek design meets powerful functionality. Designed for professionals who demand the best....",
+    "rating": 4.6,
+    "price": 6620,
+    "oldPrice": 7282
+  },
+  {
+    "id": "el-227",
+    "name": "Xiaomi Tablet Elite 191",
+    "image": "https://picsum.photos/seed/el-227/400/300",
+    "description": "Capture every moment with crystal-clear precision. Features a stunning display and all-day battery life. Compact and lightweight, perfect for travel. Designed for professionals who demand the best. Capture every moment with crystal-clear precision....",
+    "rating": 4.9,
+    "price": 5670,
+    "oldPrice": 6804
+  },
+  {
+    "id": "el-228",
+    "name": "HP Tablet Lite 783",
+    "image": "https://picsum.photos/seed/el-228/400/300",
+    "description": "Experience the ultimate performance with this device. Experience the ultimate performance with this device. Boost your productivity with lightning-fast processing. Immersive sound quality that brings your music to life....",
+    "rating": 5,
+    "price": 11770,
+    "oldPrice": 12947
+  },
+  {
+    "id": "el-229",
+    "name": "Lenovo Tablet Elite 826",
+    "image": "https://picsum.photos/seed/el-229/400/300",
+    "description": "Immersive sound quality that brings your music to life. Boost your productivity with lightning-fast processing. Features a stunning display and all-day battery life. Capture every moment with crystal-clear precision....",
+    "rating": 4.2,
+    "price": 13310,
+    "oldPrice": 19965
+  },
+  {
+    "id": "el-230",
+    "name": "Asus Camera Mini 384",
+    "image": "https://picsum.photos/seed/el-230/400/300",
+    "description": "Stay connected wherever you go. Sleek design meets powerful functionality. Compact and lightweight, perfect for travel. Compact and lightweight, perfect for travel. Sleek design meets powerful functionality....",
+    "rating": 4.4,
+    "price": 18320,
+    "oldPrice": 23816
+  },
+  {
+    "id": "el-231",
+    "name": "Bose Smartwatch Studio 554",
+    "image": "https://picsum.photos/seed/el-231/400/300",
+    "description": "The perfect companion for your daily adventures. Boost your productivity with lightning-fast processing. Experience the ultimate performance with this device. Compact and lightweight, perfect for travel....",
+    "rating": 4.6,
+    "price": 1850,
+    "oldPrice": 2220
+  },
+  {
+    "id": "el-232",
+    "name": "Apple Monitor Max 636",
+    "image": "https://picsum.photos/seed/el-232/400/300",
+    "description": "Compact and lightweight, perfect for travel. Features a stunning display and all-day battery life. Boost your productivity with lightning-fast processing. Capture every moment with crystal-clear precision....",
+    "rating": 4.6,
+    "price": 4930,
+    "oldPrice": 6409
+  },
+  {
+    "id": "el-233",
+    "name": "Lenovo Camera Air 285",
+    "image": "https://picsum.photos/seed/el-233/400/300",
+    "description": "Experience the ultimate performance with this device. Capture every moment with crystal-clear precision. Stay connected wherever you go. Experience the ultimate performance with this device. The perfect companion for your daily adventures....",
+    "rating": 4.3,
+    "price": 2180,
+    "oldPrice": 2834
+  },
+  {
+    "id": "el-234",
+    "name": "LG Tablet Elite 315",
+    "image": "https://picsum.photos/seed/el-234/400/300",
+    "description": "Immersive sound quality that brings your music to life. Features a stunning display and all-day battery life. The perfect companion for your daily adventures. Designed for professionals who demand the best....",
+    "rating": 4.6,
+    "price": 19630,
+    "oldPrice": 29445
+  },
+  {
+    "id": "el-235",
+    "name": "HP Smartwatch Mini 542",
+    "image": "https://picsum.photos/seed/el-235/400/300",
+    "description": "Features a stunning display and all-day battery life. Immersive sound quality that brings your music to life. Experience the ultimate performance with this device. The perfect companion for your daily adventures....",
+    "rating": 4.7,
+    "price": 5330,
+    "oldPrice": 6929
+  },
+  {
+    "id": "el-236",
+    "name": "HP Laptop Elite 176",
+    "image": "https://picsum.photos/seed/el-236/400/300",
+    "description": "Sleek design meets powerful functionality. Designed for professionals who demand the best. The perfect companion for your daily adventures. Features a stunning display and all-day battery life. Experience the ultimate performance with this device....",
+    "rating": 4,
+    "price": 14650,
+    "oldPrice": 21975
+  },
+  {
+    "id": "el-237",
+    "name": "Bose Headphones Studio 761",
+    "image": "https://picsum.photos/seed/el-237/400/300",
+    "description": "The perfect companion for your daily adventures. Designed for professionals who demand the best. Experience the ultimate performance with this device. The perfect companion for your daily adventures....",
+    "rating": 4.2,
+    "price": 7930,
+    "oldPrice": 11102
+  },
+  {
+    "id": "el-238",
+    "name": "Xiaomi Smartphone Gaming 342",
+    "image": "https://picsum.photos/seed/el-238/400/300",
+    "description": "Features a stunning display and all-day battery life. Compact and lightweight, perfect for travel. The perfect companion for your daily adventures. Features a stunning display and all-day battery life....",
+    "rating": 4.5,
+    "price": 11720,
+    "oldPrice": 12892
+  },
+  {
+    "id": "el-239",
+    "name": "Sony Speaker Ultra 268",
+    "image": "https://picsum.photos/seed/el-239/400/300",
+    "description": "Sleek design meets powerful functionality. Experience the ultimate performance with this device. Stay connected wherever you go. Sleek design meets powerful functionality. Stay connected wherever you go....",
+    "rating": 4.4,
+    "price": 17700,
+    "oldPrice": 21240
+  },
+  {
+    "id": "el-240",
+    "name": "HP Camera Pro 350",
+    "image": "https://picsum.photos/seed/el-240/400/300",
+    "description": "Immersive sound quality that brings your music to life. Features a stunning display and all-day battery life. Capture every moment with crystal-clear precision. Stay connected wherever you go. Boost your productivity with lightning-fast processing....",
+    "rating": 4.5,
+    "price": 8550,
+    "oldPrice": 11970
+  },
+  {
+    "id": "el-241",
+    "name": "Asus Keyboard Lite 340",
+    "image": "https://picsum.photos/seed/el-241/400/300",
+    "description": "Experience the ultimate performance with this device. Immersive sound quality that brings your music to life. Features a stunning display and all-day battery life. Immersive sound quality that brings your music to life....",
+    "rating": 4.7,
+    "price": 10040,
+    "oldPrice": 14056
+  },
+  {
+    "id": "el-242",
+    "name": "LG Monitor Lite 274",
+    "image": "https://picsum.photos/seed/el-242/400/300",
+    "description": "Compact and lightweight, perfect for travel. Features a stunning display and all-day battery life. Experience the ultimate performance with this device. Features a stunning display and all-day battery life....",
+    "rating": 4.8,
+    "price": 13610,
+    "oldPrice": 16332
+  },
+  {
+    "id": "el-243",
+    "name": "Lenovo Headphones Lite 837",
+    "image": "https://picsum.photos/seed/el-243/400/300",
+    "description": "Features a stunning display and all-day battery life. Capture every moment with crystal-clear precision. Designed for professionals who demand the best. Sleek design meets powerful functionality. The perfect companion for your daily adventures....",
+    "rating": 4.9,
+    "price": 9210,
+    "oldPrice": 12894
+  },
+  {
+    "id": "el-244",
+    "name": "Sony Keyboard Plus 824",
+    "image": "https://picsum.photos/seed/el-244/400/300",
+    "description": "Capture every moment with crystal-clear precision. Sleek design meets powerful functionality. Compact and lightweight, perfect for travel. Experience the ultimate performance with this device. Immersive sound quality that brings your music to life....",
+    "rating": 4.9,
+    "price": 6750,
+    "oldPrice": 8775
+  },
+  {
+    "id": "el-245",
+    "name": "Bose Tablet Studio 198",
+    "image": "https://picsum.photos/seed/el-245/400/300",
+    "description": "Capture every moment with crystal-clear precision. Experience the ultimate performance with this device. Sleek design meets powerful functionality. The perfect companion for your daily adventures. The perfect companion for your daily adventures....",
+    "rating": 4.7,
+    "price": 8510,
+    "oldPrice": 11914
+  },
+  {
+    "id": "el-246",
+    "name": "HP Speaker Max 229",
+    "image": "https://picsum.photos/seed/el-246/400/300",
+    "description": "Sleek design meets powerful functionality. Immersive sound quality that brings your music to life. The perfect companion for your daily adventures. Sleek design meets powerful functionality. Immersive sound quality that brings your music to life....",
+    "rating": 5,
+    "price": 16940,
+    "oldPrice": 25410
+  },
+  {
+    "id": "el-247",
+    "name": "LG Camera Plus 866",
+    "image": "https://picsum.photos/seed/el-247/400/300",
+    "description": "Designed for professionals who demand the best. Features a stunning display and all-day battery life. The perfect companion for your daily adventures. Capture every moment with crystal-clear precision....",
+    "rating": 4.6,
+    "price": 13270,
+    "oldPrice": 14597
+  },
+  {
+    "id": "el-248",
+    "name": "Dell Camera Ultra 484",
+    "image": "https://picsum.photos/seed/el-248/400/300",
+    "description": "Designed for professionals who demand the best. Compact and lightweight, perfect for travel. Sleek design meets powerful functionality. Capture every moment with crystal-clear precision. Immersive sound quality that brings your music to life....",
+    "rating": 4,
+    "price": 2090,
+    "oldPrice": 2508
+  },
+  {
+    "id": "el-249",
+    "name": "Bose Keyboard Elite 197",
+    "image": "https://picsum.photos/seed/el-249/400/300",
+    "description": "The perfect companion for your daily adventures. Designed for professionals who demand the best. Stay connected wherever you go. Experience the ultimate performance with this device. Sleek design meets powerful functionality....",
+    "rating": 4,
+    "price": 3030,
+    "oldPrice": 3939
+  },
+  {
+    "id": "el-250",
+    "name": "Samsung Speaker Ultra 457",
+    "image": "https://picsum.photos/seed/el-250/400/300",
+    "description": "Features a stunning display and all-day battery life. Boost your productivity with lightning-fast processing. Compact and lightweight, perfect for travel. Experience the ultimate performance with this device....",
+    "rating": 4,
+    "price": 11300,
+    "oldPrice": 14690
+  },
+  {
+    "id": "el-251",
+    "name": "HP Mouse Max 536",
+    "image": "https://picsum.photos/seed/el-251/400/300",
+    "description": "Immersive sound quality that brings your music to life. Immersive sound quality that brings your music to life. The perfect companion for your daily adventures. Immersive sound quality that brings your music to life....",
+    "rating": 4.9,
+    "price": 6480,
+    "oldPrice": 8424
+  },
+  {
+    "id": "el-252",
+    "name": "Samsung Camera Plus 201",
+    "image": "https://picsum.photos/seed/el-252/400/300",
+    "description": "Compact and lightweight, perfect for travel. Stay connected wherever you go. Designed for professionals who demand the best. Features a stunning display and all-day battery life. Features a stunning display and all-day battery life....",
+    "rating": 4.4,
+    "price": 18770,
+    "oldPrice": 24401
+  },
+  {
+    "id": "el-253",
+    "name": "Samsung Laptop Mini 586",
+    "image": "https://picsum.photos/seed/el-253/400/300",
+    "description": "Boost your productivity with lightning-fast processing. The perfect companion for your daily adventures. Boost your productivity with lightning-fast processing. Boost your productivity with lightning-fast processing....",
+    "rating": 4.7,
+    "price": 16780,
+    "oldPrice": 23492
+  },
+  {
+    "id": "el-254",
+    "name": "Bose Mouse Lite 715",
+    "image": "https://picsum.photos/seed/el-254/400/300",
+    "description": "The perfect companion for your daily adventures. Experience the ultimate performance with this device. Sleek design meets powerful functionality. Stay connected wherever you go. The perfect companion for your daily adventures....",
+    "rating": 4.5,
+    "price": 14940,
+    "oldPrice": 20916
+  },
+  {
+    "id": "el-255",
+    "name": "HP Mouse Pro 680",
+    "image": "https://picsum.photos/seed/el-255/400/300",
+    "description": "Features a stunning display and all-day battery life. Experience the ultimate performance with this device. Stay connected wherever you go. Capture every moment with crystal-clear precision. The perfect companion for your daily adventures....",
+    "rating": 4.4,
+    "price": 5250,
+    "oldPrice": 6825
+  },
+  {
+    "id": "el-256",
+    "name": "Samsung Speaker Gaming 812",
+    "image": "https://picsum.photos/seed/el-256/400/300",
+    "description": "The perfect companion for your daily adventures. Sleek design meets powerful functionality. Experience the ultimate performance with this device. Designed for professionals who demand the best. Capture every moment with crystal-clear precision....",
+    "rating": 4.7,
+    "price": 15090,
+    "oldPrice": 18108
+  },
+  {
+    "id": "el-257",
+    "name": "Bose Mouse Max 143",
+    "image": "https://picsum.photos/seed/el-257/400/300",
+    "description": "Boost your productivity with lightning-fast processing. Sleek design meets powerful functionality. The perfect companion for your daily adventures. Boost your productivity with lightning-fast processing....",
+    "rating": 4.3,
+    "price": 11820,
+    "oldPrice": 16548
+  },
+  {
+    "id": "el-258",
+    "name": "Sony Smartphone Plus 770",
+    "image": "https://picsum.photos/seed/el-258/400/300",
+    "description": "Sleek design meets powerful functionality. Sleek design meets powerful functionality. Stay connected wherever you go. Capture every moment with crystal-clear precision. Immersive sound quality that brings your music to life....",
+    "rating": 4.2,
+    "price": 6010,
+    "oldPrice": 7813
+  },
+  {
+    "id": "el-259",
+    "name": "Xiaomi Headphones Mini 708",
+    "image": "https://picsum.photos/seed/el-259/400/300",
+    "description": "Experience the ultimate performance with this device. Immersive sound quality that brings your music to life. Sleek design meets powerful functionality. Immersive sound quality that brings your music to life....",
+    "rating": 4.1,
+    "price": 6350,
+    "oldPrice": 6985
+  },
+  {
+    "id": "el-260",
+    "name": "Asus Headphones Pro 241",
+    "image": "https://picsum.photos/seed/el-260/400/300",
+    "description": "Stay connected wherever you go. Boost your productivity with lightning-fast processing. Sleek design meets powerful functionality. Boost your productivity with lightning-fast processing. Compact and lightweight, perfect for travel....",
+    "rating": 4.4,
+    "price": 7110,
+    "oldPrice": 9243
+  },
+  {
+    "id": "el-261",
+    "name": "Dell Mouse Elite 472",
+    "image": "https://picsum.photos/seed/el-261/400/300",
+    "description": "The perfect companion for your daily adventures. Compact and lightweight, perfect for travel. Features a stunning display and all-day battery life. Designed for professionals who demand the best. Sleek design meets powerful functionality....",
+    "rating": 4,
+    "price": 15160,
+    "oldPrice": 18192
+  },
+  {
+    "id": "el-262",
+    "name": "Bose Monitor Ultra 831",
+    "image": "https://picsum.photos/seed/el-262/400/300",
+    "description": "Designed for professionals who demand the best. Boost your productivity with lightning-fast processing. Immersive sound quality that brings your music to life. Immersive sound quality that brings your music to life....",
+    "rating": 4.4,
+    "price": 10110,
+    "oldPrice": 12132
+  },
+  {
+    "id": "el-263",
+    "name": "Dell Camera Elite 146",
+    "image": "https://picsum.photos/seed/el-263/400/300",
+    "description": "Immersive sound quality that brings your music to life. Experience the ultimate performance with this device. Sleek design meets powerful functionality. Compact and lightweight, perfect for travel. Boost your productivity with lightning-fast processi...",
+    "rating": 5,
+    "price": 1880,
+    "oldPrice": 2632
+  },
+  {
+    "id": "el-264",
+    "name": "Dell Smartphone Ultra 810",
+    "image": "https://picsum.photos/seed/el-264/400/300",
+    "description": "Sleek design meets powerful functionality. Capture every moment with crystal-clear precision. Stay connected wherever you go. Immersive sound quality that brings your music to life. Compact and lightweight, perfect for travel....",
+    "rating": 4,
+    "price": 18140,
+    "oldPrice": 21768
+  },
+  {
+    "id": "el-265",
+    "name": "Apple Tablet Max 832",
+    "image": "https://picsum.photos/seed/el-265/400/300",
+    "description": "Designed for professionals who demand the best. Experience the ultimate performance with this device. Immersive sound quality that brings your music to life. Stay connected wherever you go. Immersive sound quality that brings your music to life....",
+    "rating": 4.7,
+    "price": 15590,
+    "oldPrice": 18708
+  },
+  {
+    "id": "el-266",
+    "name": "Apple Headphones Studio 658",
+    "image": "https://picsum.photos/seed/el-266/400/300",
+    "description": "Sleek design meets powerful functionality. Stay connected wherever you go. Compact and lightweight, perfect for travel. Stay connected wherever you go. Immersive sound quality that brings your music to life....",
+    "rating": 4.1,
+    "price": 10640,
+    "oldPrice": 12768
+  },
+  {
+    "id": "el-267",
+    "name": "Dell Keyboard Elite 389",
+    "image": "https://picsum.photos/seed/el-267/400/300",
+    "description": "Capture every moment with crystal-clear precision. Experience the ultimate performance with this device. Immersive sound quality that brings your music to life. Capture every moment with crystal-clear precision....",
+    "rating": 4.9,
+    "price": 18060,
+    "oldPrice": 19866
+  },
+  {
+    "id": "el-268",
+    "name": "Lenovo Keyboard Studio 306",
+    "image": "https://picsum.photos/seed/el-268/400/300",
+    "description": "Stay connected wherever you go. Experience the ultimate performance with this device. Experience the ultimate performance with this device. Boost your productivity with lightning-fast processing. The perfect companion for your daily adventures....",
+    "rating": 4.6,
+    "price": 14880,
+    "oldPrice": 19344
+  },
+  {
+    "id": "el-269",
+    "name": "HP Laptop Pro 885",
+    "image": "https://picsum.photos/seed/el-269/400/300",
+    "description": "Boost your productivity with lightning-fast processing. Sleek design meets powerful functionality. Capture every moment with crystal-clear precision. Immersive sound quality that brings your music to life....",
+    "rating": 4.5,
+    "price": 5120,
+    "oldPrice": 7168
+  },
+  {
+    "id": "el-270",
+    "name": "Apple Tablet Ultra 416",
+    "image": "https://picsum.photos/seed/el-270/400/300",
+    "description": "Capture every moment with crystal-clear precision. Experience the ultimate performance with this device. Compact and lightweight, perfect for travel. Designed for professionals who demand the best. Sleek design meets powerful functionality....",
+    "rating": 4.6,
+    "price": 11800,
+    "oldPrice": 17700
+  },
+  {
+    "id": "el-271",
+    "name": "LG Headphones Plus 752",
+    "image": "https://picsum.photos/seed/el-271/400/300",
+    "description": "Stay connected wherever you go. Stay connected wherever you go. Stay connected wherever you go. Capture every moment with crystal-clear precision. Designed for professionals who demand the best. The perfect companion for your daily adventures....",
+    "rating": 4.1,
+    "price": 10000,
+    "oldPrice": 15000
+  },
+  {
+    "id": "el-272",
+    "name": "Bose Camera Ultra 557",
+    "image": "https://picsum.photos/seed/el-272/400/300",
+    "description": "Sleek design meets powerful functionality. The perfect companion for your daily adventures. Boost your productivity with lightning-fast processing. Immersive sound quality that brings your music to life....",
+    "rating": 4.6,
+    "price": 4750,
+    "oldPrice": 6175
+  },
+  {
+    "id": "el-273",
+    "name": "Lenovo Smartphone Ultra 658",
+    "image": "https://picsum.photos/seed/el-273/400/300",
+    "description": "Sleek design meets powerful functionality. Capture every moment with crystal-clear precision. Designed for professionals who demand the best. Experience the ultimate performance with this device. Stay connected wherever you go....",
+    "rating": 4.6,
+    "price": 7080,
+    "oldPrice": 9204
+  },
+  {
+    "id": "el-274",
+    "name": "Sony Mouse Plus 669",
+    "image": "https://picsum.photos/seed/el-274/400/300",
+    "description": "Compact and lightweight, perfect for travel. Sleek design meets powerful functionality. The perfect companion for your daily adventures. Experience the ultimate performance with this device. Designed for professionals who demand the best....",
+    "rating": 4.6,
+    "price": 12750,
+    "oldPrice": 19125
+  },
+  {
+    "id": "el-275",
+    "name": "Dell Laptop Max 370",
+    "image": "https://picsum.photos/seed/el-275/400/300",
+    "description": "Immersive sound quality that brings your music to life. Boost your productivity with lightning-fast processing. Experience the ultimate performance with this device. Immersive sound quality that brings your music to life....",
+    "rating": 4.9,
+    "price": 19690,
+    "oldPrice": 27566
+  },
+  {
+    "id": "el-276",
+    "name": "Lenovo Smartwatch Max 694",
+    "image": "https://picsum.photos/seed/el-276/400/300",
+    "description": "Designed for professionals who demand the best. Designed for professionals who demand the best. Designed for professionals who demand the best. Features a stunning display and all-day battery life. Boost your productivity with lightning-fast processi...",
+    "rating": 4.5,
+    "price": 610,
+    "oldPrice": 732
+  },
+  {
+    "id": "el-277",
+    "name": "Dell Mouse Studio 543",
+    "image": "https://picsum.photos/seed/el-277/400/300",
+    "description": "The perfect companion for your daily adventures. Boost your productivity with lightning-fast processing. Designed for professionals who demand the best. Compact and lightweight, perfect for travel. Experience the ultimate performance with this device...",
+    "rating": 4.3,
+    "price": 7400,
+    "oldPrice": 10360
+  },
+  {
+    "id": "el-278",
+    "name": "Apple Smartphone Max 179",
+    "image": "https://picsum.photos/seed/el-278/400/300",
+    "description": "Boost your productivity with lightning-fast processing. Features a stunning display and all-day battery life. The perfect companion for your daily adventures. Stay connected wherever you go. Designed for professionals who demand the best....",
+    "rating": 4.5,
+    "price": 15530,
+    "oldPrice": 17083
+  },
+  {
+    "id": "el-279",
+    "name": "Asus Keyboard Elite 703",
+    "image": "https://picsum.photos/seed/el-279/400/300",
+    "description": "Boost your productivity with lightning-fast processing. Boost your productivity with lightning-fast processing. Immersive sound quality that brings your music to life. Experience the ultimate performance with this device....",
+    "rating": 4.7,
+    "price": 8800,
+    "oldPrice": 10560
+  },
+  {
+    "id": "el-280",
+    "name": "Samsung Keyboard Pro 368",
+    "image": "https://picsum.photos/seed/el-280/400/300",
+    "description": "Compact and lightweight, perfect for travel. Designed for professionals who demand the best. Features a stunning display and all-day battery life. The perfect companion for your daily adventures. Features a stunning display and all-day battery life....",
+    "rating": 4.7,
+    "price": 9750,
+    "oldPrice": 13650
+  },
+  {
+    "id": "el-281",
+    "name": "Sony Keyboard Air 622",
+    "image": "https://picsum.photos/seed/el-281/400/300",
+    "description": "Experience the ultimate performance with this device. Designed for professionals who demand the best. Compact and lightweight, perfect for travel. Features a stunning display and all-day battery life....",
+    "rating": 4.4,
+    "price": 5310,
+    "oldPrice": 7433
+  },
+  {
+    "id": "el-282",
+    "name": "Sony Camera Plus 339",
+    "image": "https://picsum.photos/seed/el-282/400/300",
+    "description": "Stay connected wherever you go. Capture every moment with crystal-clear precision. Boost your productivity with lightning-fast processing. Designed for professionals who demand the best. Sleek design meets powerful functionality....",
+    "rating": 5,
+    "price": 840,
+    "oldPrice": 1176
+  },
+  {
+    "id": "el-283",
+    "name": "LG Speaker Lite 412",
+    "image": "https://picsum.photos/seed/el-283/400/300",
+    "description": "Boost your productivity with lightning-fast processing. The perfect companion for your daily adventures. The perfect companion for your daily adventures. Immersive sound quality that brings your music to life....",
+    "rating": 4.1,
+    "price": 15470,
+    "oldPrice": 20111
+  },
+  {
+    "id": "el-284",
+    "name": "LG Smartwatch Pro 110",
+    "image": "https://picsum.photos/seed/el-284/400/300",
+    "description": "Features a stunning display and all-day battery life. Sleek design meets powerful functionality. Immersive sound quality that brings your music to life. Designed for professionals who demand the best....",
+    "rating": 4.1,
+    "price": 10760,
+    "oldPrice": 15063
+  },
+  {
+    "id": "el-285",
+    "name": "Lenovo Laptop Gaming 775",
+    "image": "https://picsum.photos/seed/el-285/400/300",
+    "description": "The perfect companion for your daily adventures. Designed for professionals who demand the best. Features a stunning display and all-day battery life. Sleek design meets powerful functionality. Stay connected wherever you go....",
+    "rating": 4.9,
+    "price": 9390,
+    "oldPrice": 13146
+  },
+  {
+    "id": "el-286",
+    "name": "Lenovo Speaker Studio 715",
+    "image": "https://picsum.photos/seed/el-286/400/300",
+    "description": "Features a stunning display and all-day battery life. Boost your productivity with lightning-fast processing. Features a stunning display and all-day battery life. The perfect companion for your daily adventures....",
+    "rating": 4.6,
+    "price": 6800,
+    "oldPrice": 8840
+  },
+  {
+    "id": "el-287",
+    "name": "Sony Headphones Pro 378",
+    "image": "https://picsum.photos/seed/el-287/400/300",
+    "description": "Immersive sound quality that brings your music to life. Features a stunning display and all-day battery life. The perfect companion for your daily adventures. The perfect companion for your daily adventures....",
+    "rating": 4.3,
+    "price": 7990,
+    "oldPrice": 9588
+  },
+  {
+    "id": "el-288",
+    "name": "Xiaomi Keyboard Mini 606",
+    "image": "https://picsum.photos/seed/el-288/400/300",
+    "description": "Features a stunning display and all-day battery life. Boost your productivity with lightning-fast processing. The perfect companion for your daily adventures. Boost your productivity with lightning-fast processing....",
+    "rating": 4.2,
+    "price": 9790,
+    "oldPrice": 12727
+  },
+  {
+    "id": "el-289",
+    "name": "Dell Smartwatch Lite 329",
+    "image": "https://picsum.photos/seed/el-289/400/300",
+    "description": "The perfect companion for your daily adventures. Immersive sound quality that brings your music to life. Features a stunning display and all-day battery life. Designed for professionals who demand the best....",
+    "rating": 4.3,
+    "price": 12370,
+    "oldPrice": 17318
+  },
+  {
+    "id": "el-290",
+    "name": "Apple Monitor Gaming 330",
+    "image": "https://picsum.photos/seed/el-290/400/300",
+    "description": "Features a stunning display and all-day battery life. Experience the ultimate performance with this device. Features a stunning display and all-day battery life. Immersive sound quality that brings your music to life....",
+    "rating": 4.7,
+    "price": 6110,
+    "oldPrice": 7332
+  },
+  {
+    "id": "el-291",
+    "name": "HP Mouse Max 889",
+    "image": "https://picsum.photos/seed/el-291/400/300",
+    "description": "Sleek design meets powerful functionality. Sleek design meets powerful functionality. Immersive sound quality that brings your music to life. Sleek design meets powerful functionality. Immersive sound quality that brings your music to life....",
+    "rating": 4.3,
+    "price": 15980,
+    "oldPrice": 22372
+  },
+  {
+    "id": "el-292",
+    "name": "Sony Monitor Pro 831",
+    "image": "https://picsum.photos/seed/el-292/400/300",
+    "description": "Designed for professionals who demand the best. Capture every moment with crystal-clear precision. Features a stunning display and all-day battery life. Experience the ultimate performance with this device....",
+    "rating": 4.1,
+    "price": 2340,
+    "oldPrice": 3276
+  },
+  {
+    "id": "el-293",
+    "name": "Samsung Mouse Elite 681",
+    "image": "https://picsum.photos/seed/el-293/400/300",
+    "description": "Boost your productivity with lightning-fast processing. Features a stunning display and all-day battery life. Experience the ultimate performance with this device. Designed for professionals who demand the best....",
+    "rating": 4.6,
+    "price": 12170,
+    "oldPrice": 17038
+  },
+  {
+    "id": "el-294",
+    "name": "Lenovo Smartwatch Mini 473",
+    "image": "https://picsum.photos/seed/el-294/400/300",
+    "description": "The perfect companion for your daily adventures. Immersive sound quality that brings your music to life. Capture every moment with crystal-clear precision. Compact and lightweight, perfect for travel....",
+    "rating": 4.1,
+    "price": 18510,
+    "oldPrice": 20361
+  },
+  {
+    "id": "el-295",
+    "name": "Samsung Keyboard Studio 897",
+    "image": "https://picsum.photos/seed/el-295/400/300",
+    "description": "Experience the ultimate performance with this device. The perfect companion for your daily adventures. Stay connected wherever you go. Sleek design meets powerful functionality. Designed for professionals who demand the best....",
+    "rating": 4.6,
+    "price": 1730,
+    "oldPrice": 2422
+  },
+  {
+    "id": "el-296",
+    "name": "Dell Laptop Ultra 477",
+    "image": "https://picsum.photos/seed/el-296/400/300",
+    "description": "Stay connected wherever you go. The perfect companion for your daily adventures. Experience the ultimate performance with this device. Sleek design meets powerful functionality. Capture every moment with crystal-clear precision....",
+    "rating": 4.2,
+    "price": 10170,
+    "oldPrice": 14238
+  },
+  {
+    "id": "el-297",
+    "name": "Lenovo Tablet Lite 284",
+    "image": "https://picsum.photos/seed/el-297/400/300",
+    "description": "Features a stunning display and all-day battery life. Experience the ultimate performance with this device. Capture every moment with crystal-clear precision. Compact and lightweight, perfect for travel....",
+    "rating": 4.3,
+    "price": 18020,
+    "oldPrice": 25228
+  },
+  {
+    "id": "el-298",
+    "name": "Apple Smartwatch Plus 268",
+    "image": "https://picsum.photos/seed/el-298/400/300",
+    "description": "Capture every moment with crystal-clear precision. The perfect companion for your daily adventures. Compact and lightweight, perfect for travel. Features a stunning display and all-day battery life. Designed for professionals who demand the best....",
+    "rating": 4.9,
+    "price": 13890,
+    "oldPrice": 16668
+  },
+  {
+    "id": "el-299",
+    "name": "Xiaomi Monitor Mini 809",
+    "image": "https://picsum.photos/seed/el-299/400/300",
+    "description": "Capture every moment with crystal-clear precision. Capture every moment with crystal-clear precision. Features a stunning display and all-day battery life. Experience the ultimate performance with this device....",
+    "rating": 4.5,
+    "price": 19580,
+    "oldPrice": 23496
+  },
+  {
+    "id": "el-300",
+    "name": "Asus Smartphone Pro 231",
+    "image": "https://picsum.photos/seed/el-300/400/300",
+    "description": "Sleek design meets powerful functionality. Stay connected wherever you go. Capture every moment with crystal-clear precision. Capture every moment with crystal-clear precision. Features a stunning display and all-day battery life....",
+    "rating": 4.7,
+    "price": 19310,
+    "oldPrice": 28965
+  }
+]

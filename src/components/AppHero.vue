@@ -7,18 +7,12 @@
     <div class="container">
       <div class="hero-content">
         <h1 class="hero-title">
-          <span class="line-1">Блог any.</span>
-          <br />
-          <span class="line-2">Истории наших партнеров</span>
+          <span class="line-1">anyDemo</span>
+          <span class="line-2"><br />Демонстраниция возможностей<br /> any платформы</span>
         </h1>
-        <p class="hero-description">
-          Рассказываем, как платформа any
-          <br />
-          повлияла на бизнес наших партнеров
-        </p>
       </div>
       
-      <a href="#" class="telegram-btn">
+      <a href="https://t.me/+yyzYW1JzNNtjMmU6" class="telegram-btn">
         <span class="tg-icon">
              <!-- Simple Telegram Plane Icon -->
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
