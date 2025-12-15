@@ -7,7 +7,9 @@ import AppLogo from './AppLogo.vue'
     <div class="container">
       <a href="/" class="logo">
         <div class="logo-icon">
-          <AppLogo />
+          <div class="logo-bg">
+            <AppLogo />
+          </div>
         </div>
         <span class="logo-text">anyDemo</span>
       </a>
@@ -28,8 +30,8 @@ import AppLogo from './AppLogo.vue'
   height: 72px;
   display: flex;
   align-items: center;
-  background-color: #ffffff;
-  border-bottom: 1px solid #eee;
+  background-color: #000000;
+  border-bottom: 1px solid #333;
 }
 
 .container {
@@ -54,35 +56,49 @@ import AppLogo from './AppLogo.vue'
   align-items: center;
 }
 
+.logo-bg {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .telegram-link {
-  color: #1A1A1A;
+  color: #fff;
   text-decoration: none;
   font-family: 'Inter', sans-serif;
   font-size: 14px;
   font-weight: 500;
-  transition: opacity 0.2s;
+  transition: all 0.2s;
   display: flex;
   align-items: center;
   gap: 8px;
+  background-color: #748AF6;
+  padding: 8px 16px;
+  border-radius: 20px;
 }
 
 .telegram-link:hover {
-  opacity: 0.7;
-  color: var(--color-active-blue);
+  opacity: 0.9;
+  background-color: #5b73e8;
+  color: #fff;
 }
 
 .tg-icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-active-blue);
+  color: #fff;
 }
 
 .logo-text {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 18px;
-  color: #1A1A1A;
+  color: #fff;
   letter-spacing: -0.02em;
 }
 
