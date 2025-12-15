@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const primaryFilters = []
+
 
 
 const props = defineProps<{
@@ -19,17 +19,7 @@ const tabs = [
 <template>
   <section class="filters">
     <div class="container">
-      <div class="primary-filters" v-if="primaryFilters.length > 0">
-        <button 
-          v-for="filter in primaryFilters" 
-          :key="filter.label"
-          class="filter-btn"
-          :class="{ active: filter.active }"
-        >
-          <span class="filter-label">{{ filter.label }}</span>
-          <span class="filter-count">{{ filter.count }}</span>
-        </button>
-      </div>
+
       
       <div class="toggle-filters">
         <button 
@@ -58,43 +48,7 @@ const tabs = [
   padding: 0 20px;
 }
 
-.primary-filters {
-  display: flex;
-  gap: 40px;
-  border-bottom: 1px solid transparent; /* Placeholder for alignment if needed */
-  margin-bottom: 24px;
-}
 
-.filter-btn {
-  font-family: 'Inter', sans-serif;
-  font-size: 16px;
-  color: var(--color-text-dark); /* Default color for inactive */
-  padding-bottom: 8px;
-  border-bottom: 2px solid transparent;
-  display: flex;
-  gap: 6px;
-  align-items: center;
-  transition: all 0.2s;
-}
-
-.filter-btn.active {
-  color: var(--color-active-blue);
-  border-bottom-color: var(--color-active-blue);
-  font-weight: 500;
-}
-
-.filter-count {
-  color: var(--color-active-blue);
-  font-weight: 500;
-}
-
-.filter-btn:not(.active) .filter-count {
-  color: var(--color-active-blue);
-}
-
-.filter-btn:not(.active) .filter-label {
-    color: #1A1A1A;
-}
 
 .toggle-filters {
   display: flex;

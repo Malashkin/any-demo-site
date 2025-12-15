@@ -11,17 +11,25 @@ import AppLogo from './AppLogo.vue'
         </div>
         <span class="logo-text">anyDemo</span>
       </a>
+      <a href="https://t.me/+yyzYW1JzNNtjMmU6" class="telegram-link" target="_blank">
+        <span class="tg-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20.665 3.333L3.333 10.665L9.333 13.333L18.665 6.665L11.333 14.665L16.665 18.665L20.665 3.333Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        Узнать больше в Telegram
+      </a>
     </div>
   </header>
 </template>
 
 <style scoped>
 .header {
-  background-color: var(--color-bg-header);
-  height: 80px;
+  height: 72px;
   display: flex;
   align-items: center;
-  color: var(--color-text-white);
+  background-color: #ffffff;
+  border-bottom: 1px solid #eee;
 }
 
 .container {
@@ -38,12 +46,44 @@ import AppLogo from './AppLogo.vue'
   display: flex;
   align-items: center;
   gap: 12px;
+  text-decoration: none;
+}
+
+.logo-icon {
+  display: flex;
+  align-items: center;
+}
+
+.telegram-link {
+  color: #1A1A1A;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  transition: opacity 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.telegram-link:hover {
+  opacity: 0.7;
+  color: var(--color-active-blue);
+}
+
+.tg-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-active-blue);
 }
 
 .logo-text {
-  font-weight: 700;
-  font-size: 20px;
-  color: var(--color-text-white);
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #1A1A1A;
+  letter-spacing: -0.02em;
 }
 
 .nav ul {
