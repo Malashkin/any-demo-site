@@ -45,7 +45,7 @@ import AppLogo from './AppLogo.vue'
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .logo-section {

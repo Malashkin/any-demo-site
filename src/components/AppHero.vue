@@ -18,8 +18,8 @@
 
 <style scoped>
 .hero {
-  padding-top: 72px;
-  padding-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 0px;
   background-color: var(--color-bg-body);
 }
 

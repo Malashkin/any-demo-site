@@ -5,13 +5,23 @@ import AppFooter from './components/AppFooter.vue'
 </script>
 
 <template>
-  <main>
+  <main class="app-layout">
     <AppHeader />
-    <router-view />
+    <div class="content">
+      <router-view />
+    </div>
     <AppFooter />
   </main>
 </template>
 
 <style scoped>
-/* No specific styles needed here as components are self-contained */
+.app-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
 </style>

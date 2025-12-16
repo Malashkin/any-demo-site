@@ -8,10 +8,26 @@ const props = defineProps<{
 }>()
 
 const products = [
-  { id: 'anyquery', name: 'AI-Поиск (anyQuery)' },
-  { id: 'anyimage', name: 'Поиск по фото (anyImage)' },
-  { id: 'anyrecs', name: 'AI-Рекомендации (anyRecs)' },
-  { id: 'anyreviews', name: 'AI-контент (anyReviews)' },
+  { 
+    id: 'anyquery', 
+    name: 'anyQuery',
+    description: '— AI-поиск, который сам увеличивает конверсию. Снизит долю нулевых запросов до 1% и удержит покупателей на сайте. Проверено более чем в 700 магазинах.'
+  },
+  { 
+    id: 'anyimage', 
+    name: 'anyImages',
+    description: '— Самые продвинутые AI-технологии в России для удобного поиска товаров по фото. Кнопка — прямо в строке поиска и в карточке товара.'
+  },
+  { 
+    id: 'anyrecs', 
+    name: 'anyRecs',
+    description: '— AI-алгоритмы товарных рекомендаций для увеличения среднего чека. Персонализация индивидуально под каждого пользователя.'
+  },
+  { 
+    id: 'anyreviews', 
+    name: 'anyReviews',
+    description: '— AI-суммаризация отзывов в карточке товара. Покажет преимущества товара в виде виджета и поможет быстрее принять решение о покупке.'
+  },
 ]
 </script>
 
@@ -38,8 +54,10 @@ const products = [
           href="#" 
           class="category-card product-card"
         >
-          <span class="category-name">{{ prod.name }}</span>
-          <span class="category-arrow">→</span>
+          <div class="product-info">
+            <span class="product-title">{{ prod.name }}</span>
+            <p class="product-description">{{ prod.description }}</p>
+          </div>
         </a>
       </div>
     </div>
@@ -102,7 +120,49 @@ const products = [
 }
 
 .product-card {
-  --hover-color: var(--color-active-blue);
+  --hover-color: transparent;
+  align-items: flex-start;
+  background: transparent;
+  border: none;
+  padding: 40px 0;
+  border-bottom: 1px solid #eee;
+  border-radius: 0;
+  box-shadow: none;
+  transition: none;
+}
+
+.product-card:hover {
+  background: transparent;
+  transform: none;
+  box-shadow: none;
+  border-color: #eee;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 800px;
+}
+
+.product-title {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 1;
+  color: #0F1121;
+  letter-spacing: -0.02em;
+  margin-bottom: 16px;
+}
+
+.product-description {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  color: #333;
+  line-height: 1.4;
+  margin: 0;
+  font-weight: 400;
+  max-width: 600px;
 }
 
 .category-list {
