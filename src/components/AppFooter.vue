@@ -29,10 +29,11 @@ import AppLogo from './AppLogo.vue'
 
 <style scoped>
 .footer {
-  background-color: #000000;
-  padding: 20px 0;
-  color: #fff;
+  background: #FFFFFF;
+  padding: 16px 0;
+  color: #0F1121;
   margin-top: auto;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .container {
@@ -51,7 +52,7 @@ import AppLogo from './AppLogo.vue'
 .logo-section {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 6px;
 }
 
 .logo-icon {
@@ -73,19 +74,46 @@ import AppLogo from './AppLogo.vue'
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 22px;
-  color: #fff;
+  color: #0F1121;
   letter-spacing: -0.02em;
 }
 
 .legal-info {
   font-family: 'Inter', sans-serif;
   font-size: 14px;
-  color: #999;
+  color: #666;
   line-height: 1.6;
   text-align: right;
 }
 
 .legal-info p {
   margin: 4px 0;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-logo-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: #0F1121;
+  letter-spacing: -0.02em;
+}
+
+.footer-right {
+  text-align: right;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #666;
+}
+
+.footer-right strong {
+  color: #0F1121;
+  font-weight: 600;
 }
 </style>

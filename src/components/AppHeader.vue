@@ -27,11 +27,17 @@ import AppLogo from './AppLogo.vue'
 
 <style scoped>
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
   height: 72px;
   display: flex;
   align-items: center;
-  background-color: #000000;
-  border-bottom: 1px solid #333;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .container {
@@ -47,7 +53,7 @@ import AppLogo from './AppLogo.vue'
 .logo {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 6px;
   text-decoration: none;
 }
 
@@ -97,8 +103,8 @@ import AppLogo from './AppLogo.vue'
 .logo-text {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-size: 18px;
-  color: #fff;
+  font-size: 20px;
+  color: #0F1121;
   letter-spacing: -0.02em;
 }
 

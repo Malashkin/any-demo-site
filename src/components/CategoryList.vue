@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { categories } from '../config/categories'
+import { ref } from 'vue'
 
 
 
@@ -29,6 +30,12 @@ const products = [
     description: '— AI-суммаризация отзывов в карточке товара. Покажет преимущества товара в виде виджета и поможет быстрее принять решение о покупке.'
   },
 ]
+
+const activeProductId = ref('anyquery')
+
+const setActiveProduct = (id: string) => {
+  activeProductId.value = id
+}
 </script>
 
 <template>
@@ -47,18 +54,28 @@ const products = [
         </router-link>
       </div>
 
-      <div class="category-grid" v-if="props.activeTab === 'products'">
-        <a 
+      <div class="category-grid product-grid" v-if="props.activeTab === 'products'">
+        <div 
           v-for="prod in products" 
           :key="prod.id"
-          href="#" 
           class="category-card product-card"
+          :class="{ 'active': activeProductId === prod.id }"
+          @click="setActiveProduct(prod.id)"
         >
           <div class="product-info">
-            <span class="product-title">{{ prod.name }}</span>
-            <p class="product-description">{{ prod.description }}</p>
+            <div class="product-header">
+              <span class="product-title">{{ prod.name }}</span>
+              <svg 
+                class="product-chevron"
+                :class="{ 'active': activeProductId === prod.id }"
+                width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M6 9L12 15L18 9" stroke="#0F1121" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <p class="product-description" v-show="activeProductId === prod.id">{{ prod.description }}</p>
           </div>
-        </a>
+        </div>
       </div>
     </div>
   </section>
@@ -80,6 +97,12 @@ const products = [
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 20px;
+}
+
+.product-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
 }
 
 .category-card {
@@ -124,11 +147,18 @@ const products = [
   align-items: flex-start;
   background: transparent;
   border: none;
-  padding: 40px 0;
+  padding: 20px 0;
   border-bottom: 1px solid #eee;
   border-radius: 0;
   box-shadow: none;
-  transition: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.product-card.active {
+  opacity: 1;
+  padding-bottom: 40px;
 }
 
 .product-card:hover {
@@ -136,6 +166,11 @@ const products = [
   transform: none;
   box-shadow: none;
   border-color: #eee;
+  opacity: 0.8;
+}
+
+.product-card.active:hover {
+  opacity: 1;
 }
 
 .product-info {
@@ -143,6 +178,14 @@ const products = [
   flex-direction: column;
   gap: 24px;
   max-width: 800px;
+  width: 100%;
+}
+
+.product-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
 }
 
 .product-title {
@@ -152,7 +195,21 @@ const products = [
   line-height: 1;
   color: #0F1121;
   letter-spacing: -0.02em;
-  margin-bottom: 16px;
+  margin-bottom: 0;
+}
+
+.product-chevron {
+  transition: transform 0.3s ease;
+  opacity: 0.5;
+}
+
+.product-chevron.active {
+  transform: rotate(180deg);
+  opacity: 1;
+}
+
+.product-card:hover .product-chevron {
+  opacity: 1;
 }
 
 .product-description {
