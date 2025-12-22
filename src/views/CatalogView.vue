@@ -1,9 +1,9 @@
 ```vue
 <script setup lang="ts">
-import { useRoute, useRouter } from 'vue-router'
+import { useRoute } from 'vue-router'
 import { categories } from '../config/categories'
 import { computed, ref, onMounted } from 'vue'
-import { parseXMLFeed, loadProductsFromXml } from '../utils/xmlParser'
+import { parseXMLFeed } from '../utils/xmlParser'
 import type { Product } from '../types/Product'
 import ProductCardPets from '../components/ProductCards/ProductCardPets.vue'
 import ProductCardDefault from '../components/ProductCards/ProductCardDefault.vue'
@@ -11,7 +11,7 @@ import ProductCardParfum from '../components/ProductCards/ProductCardParfum.vue'
 import ProductModal from '../components/ProductModal.vue'
 
 const route = useRoute()
-const router = useRouter()
+
 const categoryId = computed(() => route.params.category as string)
 const categoryConfig = computed(() => categories.find(c => c.id === categoryId.value))
 
