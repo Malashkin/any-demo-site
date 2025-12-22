@@ -19,7 +19,7 @@ const id = route.params.id
           
           <div class="demo-features-pdp">
             <div class="feature-block">
-              <h3>Нейрокарт</h3>
+              <h3>Нейрокарточка</h3>
               <p>Умное описание товара сгенерированное AI</p>
             </div>
             <div class="feature-block">

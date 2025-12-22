@@ -123,7 +123,7 @@ onMounted(() => {
           <p>Саммари отзывов</p>
         </div>
         <div class="feature-card" v-if="categoryConfig.features.neurocart">
-          <h3>Нейрокарт</h3>
+          <h3>Нейрокарточка</h3>
           <p>Умное описание</p>
         </div>
       </div>
