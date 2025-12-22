@@ -1,3 +1,8 @@
+export interface ProductParam {
+    name: string;
+    value: string;
+}
+
 export interface Product {
     id: string;
     name: string;
@@ -9,4 +14,5 @@ export interface Product {
     categoryId?: string;
     url?: string;
     vendorCode?: string;
+    params?: ProductParam[];
 }

@@ -24,17 +24,19 @@ export async function parseXMLFeed(xmlUrl: string): Promise<Product[]> {
             const url = offer.querySelector('url')?.textContent || undefined;
             const vendorCode = offer.querySelector('vendorCode')?.textContent || undefined;
 
-            // Build description from params
-            const params = offer.querySelectorAll('param');
-            const paramTexts: string[] = [];
-            params.forEach(param => {
+            // Extract params as separate items
+            const paramElements = offer.querySelectorAll('param');
+            const params: { name: string; value: string }[] = [];
+            paramElements.forEach(param => {
                 const name = param.getAttribute('name');
                 const value = param.textContent;
                 if (name && value) {
-                    paramTexts.push(`${name}: ${value}`);
+                    params.push({ name, value });
                 }
             });
-            const description = paramTexts.join(', ');
+
+            // Description can be empty or from a specific field if exists
+            const description = offer.querySelector('description')?.textContent || undefined;
 
             if (id && name) {
                 products.push({
@@ -47,7 +49,8 @@ export async function parseXMLFeed(xmlUrl: string): Promise<Product[]> {
                     vendor,
                     categoryId,
                     url,
-                    vendorCode
+                    vendorCode,
+                    params: params.length > 0 ? params : undefined
                 });
             }
         });

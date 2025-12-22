@@ -1,9 +1,16 @@
 <script setup lang="ts">
+import { ref } from 'vue'
 import type { Product } from '../../types/Product'
 
-defineProps<{
+const props = defineProps<{
   product: Product
 }>()
+
+const emit = defineEmits<{
+  openModal: [product: Product]
+}>()
+
+const addedToCart = ref(false)
 
 // Extract weight/size variants from description
 function getVariants(description?: string): string[] {
@@ -20,10 +27,22 @@ function getDiscount(price: number, oldPrice?: number): number {
   if (!oldPrice || oldPrice <= price) return 0
   return Math.round(((oldPrice - price) / oldPrice) * 100)
 }
+
+function handleCardClick() {
+  emit('openModal', props.product)
+}
+
+function handleAddToCart(event: Event) {
+  event.stopPropagation()
+  addedToCart.value = true
+  setTimeout(() => {
+    addedToCart.value = false
+  }, 2000)
+}
 </script>
 
 <template>
-  <div class="product-card-pets">
+  <div class="product-card-pets" @click="handleCardClick">
     <div class="product-image">
       <img v-if="product.image" :src="product.image" :alt="product.name" />
       <div v-if="product.oldPrice" class="discount-badge">
@@ -54,7 +73,14 @@ function getDiscount(price: number, oldPrice?: number): number {
         {{ getVariants(product.description)[0] }} (поврежденa упаковка, уценка {{ getDiscount(product.price, product.oldPrice) }}%)
       </div>
       
-      <button class="add-to-cart">В КОРЗИНУ</button>
+      <button 
+        @click="handleAddToCart" 
+        class="add-to-cart"
+        :class="{ added: addedToCart }"
+      >
+        <span v-if="!addedToCart">В КОРЗИНУ</span>
+        <span v-else>✓ ДОБАВЛЕНО</span>
+      </button>
     </div>
   </div>
 </template>
@@ -69,6 +95,7 @@ function getDiscount(price: number, oldPrice?: number): number {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s, box-shadow 0.2s;
   height: 100%;
+  cursor: pointer;
 }
 
 .product-card-pets:hover {
@@ -198,7 +225,7 @@ function getDiscount(price: number, oldPrice?: number): number {
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
-  transition: background 0.2s;
+  transition: all 0.3s;
   margin-top: auto;
   font-family: 'Inter', sans-serif;
   text-transform: uppercase;
@@ -211,5 +238,10 @@ function getDiscount(price: number, oldPrice?: number): number {
 
 .add-to-cart:active {
   transform: scale(0.98);
+}
+
+.add-to-cart.added {
+  background: #4CAF50;
+  transform: scale(1.05);
 }
 </style>

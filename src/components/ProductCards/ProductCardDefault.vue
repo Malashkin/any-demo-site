@@ -1,13 +1,32 @@
 <script setup lang="ts">
+import { ref } from 'vue'
 import type { Product } from '../../types/Product'
 
-defineProps<{
+const props = defineProps<{
   product: Product
 }>()
+
+const emit = defineEmits<{
+  openModal: [product: Product]
+}>()
+
+const addedToCart = ref(false)
+
+function handleCardClick() {
+  emit('openModal', props.product)
+}
+
+function handleAddToCart(event: Event) {
+  event.stopPropagation()
+  addedToCart.value = true
+  setTimeout(() => {
+    addedToCart.value = false
+  }, 2000)
+}
 </script>
 
 <template>
-  <router-link :to="`/product/${product.id}`" class="product-card-default">
+  <div class="product-card-default" @click="handleCardClick">
     <div class="product-image">
       <img v-if="product.image" :src="product.image" :alt="product.name" />
     </div>
@@ -18,8 +37,16 @@ defineProps<{
         <span class="price">{{ product.price }} ₽</span>
         <span v-if="product.oldPrice" class="old-price">{{ product.oldPrice }} ₽</span>
       </div>
+      <button 
+        @click="handleAddToCart" 
+        class="add-to-cart"
+        :class="{ added: addedToCart }"
+      >
+        <span v-if="!addedToCart">В корзину</span>
+        <span v-else>✓ Добавлено</span>
+      </button>
     </div>
-  </router-link>
+  </div>
 </template>
 
 <style scoped>
@@ -27,10 +54,11 @@ defineProps<{
   border: 1px solid #eee;
   border-radius: 12px;
   overflow: hidden;
-  text-decoration: none;
   color: inherit;
   transition: transform 0.2s, box-shadow 0.2s;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
 }
 
 .product-card-default:hover {
@@ -55,6 +83,9 @@ defineProps<{
 
 .product-info {
   padding: 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .product-info h4 {
@@ -79,6 +110,7 @@ defineProps<{
   align-items: center;
   gap: 8px;
   margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 .price {
@@ -91,5 +123,31 @@ defineProps<{
   font-size: 14px;
   color: #999;
   text-decoration: line-through;
+}
+
+.add-to-cart {
+  width: 100%;
+  background: #5856D6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: auto;
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.add-to-cart:hover {
+  background: #4745B8;
+}
+
+.add-to-cart.added {
+  background: #4CAF50;
+  transform: scale(1.05);
 }
 </style>

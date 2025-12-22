@@ -123,5 +123,12 @@ export const categories: CategoryConfig[] = [
         title: 'Travel Gear',
         themeColor: '#00BCD4',
         features: { search: true, recommendations: true, review: true, neurocart: false }
+    },
+    {
+        id: 'parfum',
+        name: 'Парфюмерия',
+        title: 'Parfum Store',
+        themeColor: '#9C27B0',
+        features: { search: true, recommendations: true, review: true, neurocart: true }
     }
 ];

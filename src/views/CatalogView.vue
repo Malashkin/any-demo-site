@@ -1,19 +1,39 @@
+```vue
 <script setup lang="ts">
-import { useRoute } from 'vue-router'
+import { useRoute, useRouter } from 'vue-router'
 import { categories } from '../config/categories'
 import { computed, ref, onMounted } from 'vue'
-import { parseXMLFeed } from '../utils/xmlParser'
+import { parseXMLFeed, loadProductsFromXml } from '../utils/xmlParser'
 import type { Product } from '../types/Product'
 import ProductCardPets from '../components/ProductCards/ProductCardPets.vue'
 import ProductCardDefault from '../components/ProductCards/ProductCardDefault.vue'
+import ProductCardParfum from '../components/ProductCards/ProductCardParfum.vue'
+import ProductModal from '../components/ProductModal.vue'
 
 const route = useRoute()
-const categoryId = route.params.category as string
-const categoryConfig = computed(() => categories.find(c => c.id === categoryId))
+const router = useRouter()
+const categoryId = computed(() => route.params.category as string)
+const categoryConfig = computed(() => categories.find(c => c.id === categoryId.value))
 
 const products = ref<Product[]>([])
 const loading = ref(false)
 const error = ref<string | null>(null)
+
+// Modal state
+const selectedProduct = ref<Product | null>(null)
+const isModalOpen = ref(false)
+
+function openProductModal(product: Product) {
+  selectedProduct.value = product
+  isModalOpen.value = true
+}
+
+function closeProductModal() {
+  isModalOpen.value = false
+  setTimeout(() => {
+    selectedProduct.value = null
+  }, 300)
+}
 
 // Pagination
 const currentPage = ref(1)
@@ -35,22 +55,52 @@ function goToPage(page: number) {
 
 // Get card component based on category
 const cardComponent = computed(() => {
-  return categoryId === 'pets' ? ProductCardPets : ProductCardDefault
+  switch (categoryId.value) {
+    case 'pets':
+      return ProductCardPets
+    case 'parfum':
+      return ProductCardParfum
+    default:
+      return ProductCardDefault
+  }
 })
 
-onMounted(async () => {
-  if (categoryId === 'pets') {
-    loading.value = true
-    error.value = null
-    try {
-      products.value = await parseXMLFeed('/feeds/pets.xml')
-    } catch (err) {
-      error.value = 'Не удалось загрузить товары'
-      console.error(err)
-    } finally {
-      loading.value = false
+async function loadProducts() {
+  if (!categoryId.value) return
+  
+  loading.value = true
+  error.value = null
+  products.value = [] // Clear previous products
+  
+  try {
+    let feedUrl = ''
+    if (categoryId.value === 'pets') {
+      feedUrl = '/feeds/pets.xml'
+    } else if (categoryId.value === 'parfum') {
+      feedUrl = '/feeds/parfum.xml'
+    } else {
+      // For other categories, we might not have a feed yet
+      feedUrl = '/feeds/pets.xml' 
     }
+    
+    products.value = await parseXMLFeed(feedUrl)
+    currentPage.value = 1 // Reset to first page
+  } catch (err) {
+    error.value = 'Не удалось загрузить товары'
+    console.error(err)
+  } finally {
+    loading.value = false
   }
+}
+
+// Watch for category changes
+import { watch } from 'vue'
+watch(() => route.params.category, () => {
+  loadProducts()
+})
+
+onMounted(() => {
+  loadProducts()
 })
 </script>
 
@@ -79,7 +129,7 @@ onMounted(async () => {
       </div>
       
       
-      <div v-if="categoryId === 'pets'">
+      <div v-if="categoryId === 'pets' || categoryId === 'parfum'">
         <div v-if="loading" class="loading">Загрузка товаров...</div>
         <div v-else-if="error" class="error">{{ error }}</div>
         <div v-else-if="products.length > 0">
@@ -89,6 +139,7 @@ onMounted(async () => {
               v-for="product in paginatedProducts" 
               :key="product.id"
               :product="product"
+              @open-modal="openProductModal"
             />
           </div>
           
@@ -146,6 +197,13 @@ onMounted(async () => {
     <div class="container" v-else>
       <h1>Категория не найдена</h1>
     </div>
+    
+    <!-- Product Modal -->
+    <ProductModal 
+      :product="selectedProduct" 
+      :is-open="isModalOpen" 
+      @close="closeProductModal" 
+    />
   </div>
 </template>
 
