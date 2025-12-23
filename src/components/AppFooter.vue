@@ -3,7 +3,7 @@ import AppLogo from './AppLogo.vue'
 </script>
 
 <template>
-  <footer class="footer">
+  <footer class="footer top_menu center_options">
     <div class="container">
       <div class="footer-content">
         <div class="logo-section">

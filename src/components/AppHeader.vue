@@ -1,5 +1,12 @@
 <script setup lang="ts">
 import AppLogo from './AppLogo.vue'
+const digiConfig = (window as any).Digi?.config
+setTimeout(() => {
+  if (digiConfig?.anyQuery?.instantSearch?.customSettings) {
+    digiConfig.anyQuery.instantSearch.customSettings.isOnlyAutocompleteEnabled = false
+  }
+}, 3000)
+
 </script>
 
 <template>

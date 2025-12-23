@@ -2,7 +2,7 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router'
 import { categories } from '../config/categories'
-import { computed, ref, onMounted } from 'vue'
+import { computed, ref, onMounted, onUnmounted } from 'vue'
 import { parseXMLFeed } from '../utils/xmlParser'
 import type { Product } from '../types/Product'
 import ProductCardPets from '../components/ProductCards/ProductCardPets.vue'
@@ -112,52 +112,69 @@ async function loadProducts() {
   }
 }
 
+function removeDigiScripts() {
+  const existingScripts = document.querySelectorAll('script[src*="diginetica.net"]');
+  existingScripts.forEach(script => script.remove());
+}
+
+// Diginetica Script Injection
+function injectDigiScript() {
+  // Remove existing Diginetica scripts
+  removeDigiScripts();
+
+  let scriptId = '';
+  if (categoryId.value === 'pets') {
+    scriptId = '7292';
+  } else if (categoryId.value === 'parfum') {
+    scriptId = '304';
+  }
+
+  if (scriptId) {
+    const digiScript = document.createElement('script');
+    digiScript.dataset.skipMoving = 'true';
+    digiScript.src = `//cdn.diginetica.net/${scriptId}/client.js`;
+    digiScript.defer = true;
+    digiScript.async = true;
+    document.head.appendChild(digiScript);
+  }
+}
+
 // Watch for category changes
 import { watch } from 'vue'
 watch(() => route.params.category, () => {
   loadProducts()
+  injectDigiScript()
 })
 
 onMounted(() => {
   loadProducts()
+  injectDigiScript()
+})
+
+onUnmounted(() => {
+  removeDigiScripts()
 })
 </script>
 
 <template>
-  <div class="catalog-view">
+  <div class="catalog-view top_menu center_options">
     <div class="container" v-if="categoryConfig">
       <button @click="$router.push('/')" class="back-btn">← Назад</button>
       <h1 :style="{ color: categoryConfig.themeColor }">{{ categoryConfig.title }}</h1>
-      <div class="demo-features">
-        <div class="feature-card" v-if="categoryConfig.features.search">
-          <h3>Поиск</h3>
-          <p>Демонстрация умного поиска</p>
-        </div>
-        <div class="feature-card" v-if="categoryConfig.features.recommendations">
-          <h3>Рекомендации</h3>
-          <p>Персональные рекомендации</p>
-        </div>
-        <div class="feature-card" v-if="categoryConfig.features.review">
-          <h3>Ревью</h3>
-          <p>Саммари отзывов</p>
-        </div>
-        <div class="feature-card" v-if="categoryConfig.features.neurocart">
-          <h3>Нейрокарточка</h3>
-          <p>Умное описание</p>
-        </div>
-      </div>
+
       
       
       <div v-if="categoryId === 'pets' || categoryId === 'parfum'">
         
         <!-- Search Bar -->
-        <div class="search-container" :style="{ '--theme-color': categoryConfig?.themeColor || '#5856D6' }">
+        <div id="title-search_fixed" class="search-container" :style="{ '--theme-color': categoryConfig?.themeColor || '#5856D6' }">
           <input 
             type="text" 
             v-model="searchQuery" 
-            :id="searchInputId"
-            :placeholder="`Поиск в категории ${categoryConfig?.name || ''}...`"
-            class="search-input"
+            id="title-search-input_fixedtf"
+            :name="categoryId === 'parfum' ? 'search' : undefined"
+            :placeholder="`Поиск...`"
+            class="search-input digi-input-custom btn-search_mobile title-search_fixed search-button-div btn-search title-search_fixedtf btn-search"
           />
         </div>
 
@@ -223,6 +240,25 @@ onMounted(() => {
             <p>Описание товара...</p>
           </div>
         </router-link>
+      </div>
+
+      <div class="demo-features">
+        <div class="feature-card" v-if="categoryConfig.features.search">
+          <h3>Поиск</h3>
+          <p>Демонстрация умного поиска</p>
+        </div>
+        <div class="feature-card" v-if="categoryConfig.features.recommendations">
+          <h3>Рекомендации</h3>
+          <p>Персональные рекомендации</p>
+        </div>
+        <div class="feature-card" v-if="categoryConfig.features.review">
+          <h3>Ревью</h3>
+          <p>Саммари отзывов</p>
+        </div>
+        <div class="feature-card" v-if="categoryConfig.features.neurocart">
+          <h3>Нейрокарточка</h3>
+          <p>Умное описание</p>
+        </div>
       </div>
     </div>
     <div class="container" v-else>
@@ -480,5 +516,8 @@ onMounted(() => {
   font-size: 14px;
   color: #999;
   text-decoration: line-through;
+}
+#digi-shield.digi_desktop .digi-ac{
+  opacity: 1 !important;
 }
 </style>

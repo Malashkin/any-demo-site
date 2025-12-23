@@ -17,6 +17,7 @@
 </template>
 
 <style scoped>
+
 .hero {
   padding-top: 40px;
   padding-bottom: 0px;
