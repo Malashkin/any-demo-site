@@ -35,15 +35,34 @@ function closeProductModal() {
   }, 300)
 }
 
+// Search
+const searchQuery = ref('')
+const searchInputId = computed(() => `search-${categoryId.value}`)
+
 // Pagination
 const currentPage = ref(1)
 const itemsPerPage = 40
 
-const totalPages = computed(() => Math.ceil(products.value.length / itemsPerPage))
+const filteredProducts = computed(() => {
+  if (!searchQuery.value) return products.value
+  
+  const query = searchQuery.value.toLowerCase()
+  return products.value.filter(product => 
+    product.name.toLowerCase().includes(query) ||
+    (product.description && product.description.toLowerCase().includes(query))
+  )
+})
+
+const totalPages = computed(() => Math.ceil(filteredProducts.value.length / itemsPerPage))
 const paginatedProducts = computed(() => {
   const start = (currentPage.value - 1) * itemsPerPage
   const end = start + itemsPerPage
-  return products.value.slice(start, end)
+  return filteredProducts.value.slice(start, end)
+})
+
+// Reset page on search
+watch(searchQuery, () => {
+  currentPage.value = 1
 })
 
 function goToPage(page: number) {
@@ -130,6 +149,18 @@ onMounted(() => {
       
       
       <div v-if="categoryId === 'pets' || categoryId === 'parfum'">
+        
+        <!-- Search Bar -->
+        <div class="search-container" :style="{ '--theme-color': categoryConfig?.themeColor || '#5856D6' }">
+          <input 
+            type="text" 
+            v-model="searchQuery" 
+            :id="searchInputId"
+            :placeholder="`Поиск в категории ${categoryConfig?.name || ''}...`"
+            class="search-input"
+          />
+        </div>
+
         <div v-if="loading" class="loading">Загрузка товаров...</div>
         <div v-else-if="error" class="error">{{ error }}</div>
         <div v-else-if="products.length > 0">
@@ -144,7 +175,7 @@ onMounted(() => {
           </div>
           
           <!-- Pagination Controls -->
-          <div v-if="totalPages > 1" class="pagination">
+          <div v-if="totalPages > 1" class="pagination" :style="{ '--theme-color': categoryConfig?.themeColor || '#5856D6' }">
             <button 
               @click="goToPage(currentPage - 1)" 
               :disabled="currentPage === 1"
@@ -202,7 +233,8 @@ onMounted(() => {
     <ProductModal 
       :product="selectedProduct" 
       :is-open="isModalOpen" 
-      @close="closeProductModal" 
+      @close="closeProductModal"
+      :theme-color="categoryConfig?.themeColor"
     />
   </div>
 </template>
@@ -238,6 +270,25 @@ onMounted(() => {
   display: flex;
   gap: 20px;
   margin: 40px 0;
+}
+
+.search-container {
+  margin-bottom: 30px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 16px 20px;
+  font-size: 16px;
+  border: 2px solid #eee;
+  border-radius: 12px;
+  outline: none;
+  transition: border-color 0.2s;
+  font-family: 'Inter', sans-serif;
+}
+
+.search-input:focus {
+  border-color: var(--theme-color, #5856D6);
 }
 
 .feature-card {
@@ -321,8 +372,8 @@ onMounted(() => {
 
 .pagination-btn:hover:not(:disabled) {
   background: #f5f5f5;
-  border-color: #5856D6;
-  color: #5856D6;
+  border-color: var(--theme-color, #5856D6);
+  color: var(--theme-color, #5856D6);
 }
 
 .pagination-btn:disabled {
@@ -352,13 +403,13 @@ onMounted(() => {
 
 .pagination-page:hover {
   background: #f5f5f5;
-  border-color: #5856D6;
-  color: #5856D6;
+  border-color: var(--theme-color, #5856D6);
+  color: var(--theme-color, #5856D6);
 }
 
 .pagination-page.active {
-  background: #5856D6;
-  border-color: #5856D6;
+  background: var(--theme-color, #5856D6);
+  border-color: var(--theme-color, #5856D6);
   color: white;
 }
 

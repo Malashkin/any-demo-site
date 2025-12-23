@@ -11,7 +11,11 @@ export async function parseXMLFeed(xmlUrl: string): Promise<Product[]> {
         const offers = xmlDoc.querySelectorAll('offer');
         const products: Product[] = [];
 
-        offers.forEach((offer) => {
+        // Limit to 500 items
+        const maxItems = 500;
+        const limitedOffers = Array.from(offers).slice(0, maxItems);
+
+        limitedOffers.forEach((offer) => {
             const id = offer.getAttribute('id') || '';
             const name = offer.querySelector('name')?.textContent || '';
             const price = parseFloat(offer.querySelector('price')?.textContent || '0');

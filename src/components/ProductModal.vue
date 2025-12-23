@@ -5,6 +5,7 @@ import type { Product } from '../types/Product'
 const props = defineProps<{
   product: Product | null
   isOpen: boolean
+  themeColor?: string
 }>()
 
 const emit = defineEmits<{
@@ -91,7 +92,7 @@ onUnmounted(() => {
 <template>
   <Transition name="modal">
     <div v-if="isOpen && product" class="modal-backdrop" @click="handleBackdropClick">
-      <div class="modal-container">
+      <div class="modal-container" :style="{ '--theme-color': themeColor || '#5856D6' }">
         <button class="modal-close" @click="handleClose">×</button>
         
         <div class="modal-content">
@@ -322,7 +323,7 @@ onUnmounted(() => {
 }
 
 .discount-badge {
-  background: #5856D6;
+  background: var(--theme-color, #5856D6);
   color: white;
   padding: 6px 12px;
   border-radius: 6px;
@@ -449,12 +450,12 @@ onUnmounted(() => {
 }
 
 .action-btn.primary {
-  background: #5856D6;
+  background: var(--theme-color, #5856D6);
   color: white;
 }
 
 .action-btn.primary:hover {
-  background: #4745B8;
+  filter: brightness(0.9);
 }
 
 .action-btn.primary.added {
@@ -464,8 +465,8 @@ onUnmounted(() => {
 
 .action-btn.secondary {
   background: white;
-  color: #5856D6;
-  border: 2px solid #5856D6;
+  color: var(--theme-color, #5856D6);
+  border: 2px solid var(--theme-color, #5856D6);
 }
 
 .action-btn.secondary:hover {
